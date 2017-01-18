@@ -1,0 +1,5 @@
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1

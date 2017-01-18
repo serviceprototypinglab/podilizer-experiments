@@ -7,21 +7,32 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.lambda.AWSLambdaClient;
 import com.amazonaws.services.lambda.model.InvokeRequest;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.*;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.fasterxml.jackson.annotation.*;
+import org.ho.yaml.Yaml;
+import java.io.*;
+import awsl.*;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
+import java.io.*;
+import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
+import com.amazonaws.util.IOUtils;
+import com.fasterxml.jackson.databind.*;
 import wizardmath.*;
 
-public class LambdaFunction implements RequestHandler<InputType, OutputType> {
+public class LambdaFunction implements RequestStreamHandler {
 
-    public OutputType handleRequest(InputType inputType, Context context) {
+    public void handleRequest(InputStream inputStream, OutputStream outputStream, Context context) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        String theString = IOUtils.toString(inputStream);
+        InputType inputType = objectMapper.readValue(theString, InputType.class);
         int sumLambdaResult = sum(inputType.getS1(), inputType.getS2());
         {
             OutputType outputType = new OutputType(sumLambdaResult);
-            return outputType;
+            objectMapper.writeValue(outputStream, outputType);;
         }
     }
 

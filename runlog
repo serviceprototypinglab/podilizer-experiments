@@ -1,4 +1,16 @@
-Bereits aktuell.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+maven is already the newest version (3.3.9-3).
+openjdk-8-jdk is already the newest version (8u111-b14-2ubuntu0.16.04.2).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-53 linux-headers-4.4.0-53-generic
+  linux-image-4.4.0-53-generic linux-image-extra-4.4.0-53-generic
+  ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 24 not upgraded.
+fatal: destination path 'service_tooling_initiative' already exists and is not an empty directory.
+fatal: destination path 'javacode' already exists and is not an empty directory.
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -7,14 +19,14 @@ Bereits aktuell.
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Podilizer ---
 [INFO] Using 'ASCII' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/src/main/resources
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ Podilizer ---
 [INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Podilizer ---
 [INFO] Using 'ASCII' encoding to copy filtered resources.
-[INFO] skip non existing resourceDirectory /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/src/test/resources
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.6.0:testCompile (default-testCompile) @ Podilizer ---
 [INFO] No sources to compile
@@ -30,18 +42,35 @@ Bereits aktuell.
 [INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
 [INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
 [INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
-[WARNING] Podilizer-0.1.jar, plexus-utils-2.0.5.jar define 95 overlappping classes: 
-[WARNING]   - org.codehaus.plexus.util.cli.EnhancedStringTokenizer
-[WARNING]   - org.codehaus.plexus.util.reflection.ReflectorException
-[WARNING]   - org.codehaus.plexus.util.FileUtils$FilterWrapper
-[WARNING]   - org.codehaus.plexus.util.introspection.ClassMap
-[WARNING]   - org.codehaus.plexus.util.introspection.ReflectionValueExtractor
-[WARNING]   - org.codehaus.plexus.util.io.FileInputStreamFacade
-[WARNING]   - org.codehaus.plexus.util.InterpolationFilterReader
-[WARNING]   - org.codehaus.plexus.util.cli.shell.CmdShell
-[WARNING]   - org.codehaus.plexus.util.cli.shell.Shell
-[WARNING]   - org.codehaus.plexus.util.Os
-[WARNING]   - 85 more...
+[INFO] Including commons-cli:commons-cli:jar:1.3.1 in the shaded jar.
+[WARNING] Podilizer-0.1.jar, commons-cli-1.3.1.jar define 26 overlappping classes: 
+[WARNING]   - org.apache.commons.cli.HelpFormatter$OptionComparator
+[WARNING]   - org.apache.commons.cli.ParseException
+[WARNING]   - org.apache.commons.cli.OptionValidator
+[WARNING]   - org.apache.commons.cli.UnrecognizedOptionException
+[WARNING]   - org.apache.commons.cli.Parser
+[WARNING]   - org.apache.commons.cli.PatternOptionBuilder
+[WARNING]   - org.apache.commons.cli.GnuParser
+[WARNING]   - org.apache.commons.cli.Option
+[WARNING]   - org.apache.commons.cli.CommandLine
+[WARNING]   - org.apache.commons.cli.BasicParser
+[WARNING]   - 16 more...
+[WARNING] Podilizer-0.1.jar, plexus-component-annotations-1.5.5.jar define 3 overlappping classes: 
+[WARNING]   - org.codehaus.plexus.component.annotations.Requirement
+[WARNING]   - org.codehaus.plexus.component.annotations.Component
+[WARNING]   - org.codehaus.plexus.component.annotations.Configuration
+[WARNING] Podilizer-0.1.jar, maven-invoker-2.1.1.jar define 15 overlappping classes: 
+[WARNING]   - org.apache.maven.shared.invoker.InvocationResult
+[WARNING]   - org.apache.maven.shared.invoker.SystemOutLogger
+[WARNING]   - org.apache.maven.shared.invoker.MavenInvocationException
+[WARNING]   - org.apache.maven.shared.invoker.PrintStreamLogger
+[WARNING]   - org.apache.maven.shared.invoker.DefaultInvoker
+[WARNING]   - org.apache.maven.shared.invoker.PrintStreamHandler
+[WARNING]   - org.apache.maven.shared.invoker.CommandLineConfigurationException
+[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationRequest
+[WARNING]   - org.apache.maven.shared.invoker.Invoker
+[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationResult
+[WARNING]   - 5 more...
 [WARNING] Podilizer-0.1.jar, javaparser-1.0.11.jar define 128 overlappping classes: 
 [WARNING]   - japa.parser.ast.expr.EnclosedExpr
 [WARNING]   - japa.parser.ast.TreeVisitor
@@ -66,22 +95,18 @@ Bereits aktuell.
 [WARNING]   - org.ho.yaml.wrapper.AbstractWrapper
 [WARNING]   - org.ho.yaml.wrapper.ObjectWrapper
 [WARNING]   - 47 more...
-[WARNING] plexus-component-annotations-1.5.5.jar, Podilizer-0.1.jar define 3 overlappping classes: 
-[WARNING]   - org.codehaus.plexus.component.annotations.Requirement
-[WARNING]   - org.codehaus.plexus.component.annotations.Component
-[WARNING]   - org.codehaus.plexus.component.annotations.Configuration
-[WARNING] Podilizer-0.1.jar, maven-invoker-2.1.1.jar define 15 overlappping classes: 
-[WARNING]   - org.apache.maven.shared.invoker.InvocationResult
-[WARNING]   - org.apache.maven.shared.invoker.SystemOutLogger
-[WARNING]   - org.apache.maven.shared.invoker.MavenInvocationException
-[WARNING]   - org.apache.maven.shared.invoker.PrintStreamLogger
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvoker
-[WARNING]   - org.apache.maven.shared.invoker.PrintStreamHandler
-[WARNING]   - org.apache.maven.shared.invoker.CommandLineConfigurationException
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationRequest
-[WARNING]   - org.apache.maven.shared.invoker.Invoker
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationResult
-[WARNING]   - 5 more...
+[WARNING] Podilizer-0.1.jar, plexus-utils-2.0.5.jar define 95 overlappping classes: 
+[WARNING]   - org.codehaus.plexus.util.cli.EnhancedStringTokenizer
+[WARNING]   - org.codehaus.plexus.util.reflection.ReflectorException
+[WARNING]   - org.codehaus.plexus.util.FileUtils$FilterWrapper
+[WARNING]   - org.codehaus.plexus.util.introspection.ClassMap
+[WARNING]   - org.codehaus.plexus.util.introspection.ReflectionValueExtractor
+[WARNING]   - org.codehaus.plexus.util.io.FileInputStreamFacade
+[WARNING]   - org.codehaus.plexus.util.InterpolationFilterReader
+[WARNING]   - org.codehaus.plexus.util.cli.shell.CmdShell
+[WARNING]   - org.codehaus.plexus.util.cli.shell.Shell
+[WARNING]   - org.codehaus.plexus.util.Os
+[WARNING]   - 85 more...
 [WARNING] maven-shade-plugin has detected that some .class files
 [WARNING] are present in two or more JARs. When this happens, only
 [WARNING] one single version of the class is copied in the uberjar.
@@ -91,105 +116,58 @@ Bereits aktuell.
 [WARNING] output
 [WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/target/Podilizer-0.1.jar with /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/target/Podilizer-0.1-shaded.jar
+[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/target/Podilizer-0.1.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/target/Podilizer-0.1-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ Podilizer ---
-[INFO] Installing /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/target/Podilizer-0.1.jar to /home/spio/.m2/repository/ch/zhaw/splab/servicetooling/Podilizer/0.1/Podilizer-0.1.jar
-[INFO] Installing /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/pom.xml to /home/spio/.m2/repository/ch/zhaw/splab/servicetooling/Podilizer/0.1/Podilizer-0.1.pom
+[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/target/Podilizer-0.1.jar to /home/dord/.m2/repository/ch/zhaw/splab/servicetooling/Podilizer/0.1/Podilizer-0.1.jar
+[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/service_tooling_initiative/pom.xml to /home/dord/.m2/repository/ch/zhaw/splab/servicetooling/Podilizer/0.1/Podilizer-0.1.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.448 s
-[INFO] Finished at: 2017-01-05T17:01:40+01:00
-[INFO] Final Memory: 14M/324M
+[INFO] Total time: 1.194 s
+[INFO] Finished at: 2017-01-18T17:34:50+01:00
+[INFO] Final Memory: 12M/249M
 [INFO] ------------------------------------------------------------------------
-Bereits aktuell.
 Converting buttons...
-java.io.FileNotFoundException: /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/./additional/conf/jyaml.yml (Datei oder Verzeichnis nicht gefunden)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at org.ho.yaml.YamlConfig.loadType(Unknown Source)
-	at org.ho.yaml.Yaml.loadType(Unknown Source)
-	at ch.zhaw.file_operations.ConfigReader.getConfig(ConfigReader.java:19)
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
-Exception in thread "main" java.lang.NullPointerException
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
 
-real	0m0.134s
-user	0m0.156s
-sys	0m0.028s
+real	0m6.637s
+user	0m24.664s
+sys	0m0.412s
 Converting containers...
-java.io.FileNotFoundException: /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/./additional/conf/jyaml.yml (Datei oder Verzeichnis nicht gefunden)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at org.ho.yaml.YamlConfig.loadType(Unknown Source)
-	at org.ho.yaml.Yaml.loadType(Unknown Source)
-	at ch.zhaw.file_operations.ConfigReader.getConfig(ConfigReader.java:19)
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
-Exception in thread "main" java.lang.NullPointerException
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
 
-real	0m0.161s
-user	0m0.228s
-sys	0m0.008s
+real	0m15.863s
+user	0m55.360s
+sys	0m1.264s
 Converting imageprocessor...
 
-real	1m25.851s
-user	4m8.400s
-sys	0m5.744s
+real	0m54.255s
+user	3m22.608s
+sys	0m3.772s
+Converting imageprocessounpackaged...
+
+real	0m14.501s
+user	0m52.152s
+sys	0m1.108s
 Converting maths...
 
-real	0m8.347s
-user	0m23.164s
-sys	0m0.572s
+real	0m5.632s
+user	0m20.928s
+sys	0m0.492s
 Converting parser...
 Exception in thread "main" java.lang.NullPointerException
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:277)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
+	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:286)
+	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:24)
+	at ch.zhaw.file_operations.Translator.copyProject(Translator.java:51)
+	at ch.zhaw.file_operations.Translator.translate(Translator.java:33)
+	at ch.zhaw.file_operations.Executor.translateWithArgs(Executor.java:118)
+	at ch.zhaw.file_operations.Executor.executeWithArguments(Executor.java:74)
+	at ch.zhaw.file_operations.Visitor.main(Visitor.java:8)
 
-real	0m0.256s
-user	0m0.472s
-sys	0m0.028s
+real	0m0.396s
+user	0m0.912s
+sys	0m0.032s
 Converting transport...
-java.io.FileNotFoundException: /home/spio/ZHAW/splab/research/lambda/podilizer-experiments.gitlab/podilizer/./additional/conf/jyaml.yml (Datei oder Verzeichnis nicht gefunden)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at org.ho.yaml.YamlConfig.loadType(Unknown Source)
-	at org.ho.yaml.Yaml.loadType(Unknown Source)
-	at ch.zhaw.file_operations.ConfigReader.getConfig(ConfigReader.java:19)
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
-Exception in thread "main" java.lang.NullPointerException
-	at ch.zhaw.file_operations.InvokeMethodCreator.createMethodInvoker(InvokeMethodCreator.java:29)
-	at ch.zhaw.file_operations.UtilityClass.translateClass(UtilityClass.java:280)
-	at ch.zhaw.file_operations.InvokeMethodsWriter.write(InvokeMethodsWriter.java:21)
-	at ch.zhaw.file_operations.NewProjectCreator.copyProject(NewProjectCreator.java:42)
-	at ch.zhaw.file_operations.Visitor.main(Visitor.java:32)
 
-real	0m0.172s
-user	0m0.248s
-sys	0m0.020s
+real	0m25.773s
+user	1m35.056s
+sys	0m1.832s

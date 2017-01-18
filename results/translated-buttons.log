@@ -1,0 +1,213 @@
+
+---Translation started---
+
+
+---Translation finished in 00 min,00 sec,095 millisec---
+
+
+---Building started.---
+
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[89,9] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[89,25] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.183 s
+[INFO] Finished at: 2017-01-18T17:34:52+01:00
+[INFO] Final Memory: 18M/302M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[89,9] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/showwindow/src/main/java/lambda_function/LambdaFunction.java:[89,25] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[89,9] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[89,25] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[INFO] 11 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.132 s
+[INFO] Finished at: 2017-01-18T17:34:54+01:00
+[INFO] Final Memory: 18M/297M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[89,9] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1/src/main/java/lambda_function/LambdaFunction.java:[89,25] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/target/classes
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[34,31] incompatible types: java.lang.String cannot be converted to java.lang.String[]
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[147,9] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[147,25] cannot find symbol
+  symbol:   class Buttons
+  location: class lambda_function.LambdaFunction
+[INFO] 12 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.004 s
+[INFO] Finished at: 2017-01-18T17:34:56+01:00
+[INFO] Final Memory: 18M/298M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[25,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/showwindow/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/actionPerformed1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/main1/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/main1/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/awsl/unpackaged/Buttons/showwindow/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/InputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/OutputType.java:[5,1] package unpackaged does not exist
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[34,31] incompatible types: java.lang.String cannot be converted to java.lang.String[]
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[147,9] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1/src/main/java/lambda_function/LambdaFunction.java:[147,25] cannot find symbol
+[ERROR] symbol:   class Buttons
+[ERROR] location: class lambda_function.LambdaFunction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+---Building finished in 00 min,06 sec,476 millisec---
+

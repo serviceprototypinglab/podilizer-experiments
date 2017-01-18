@@ -1,0 +1,10 @@
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/testStatistics
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/testAnalysis
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/main1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/parse
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/prepare2
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/main1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportStatistics/setCompanies1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportStatistics/setEntries1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportAnalysis/read1
+/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportAnalysis/analyse1
