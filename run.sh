@@ -40,5 +40,5 @@ for project in $projects; do
 	fi
 done
 
-find -type f -exec sed -i -e 's/\/home.*podilizer-experiments/podilizer-experiments/g' {} \;
-find -type f -exec sed -i -e 's/\.m2/g' {} \;
+find runlog results -type f -exec sed -i -e 's/\/home.*podilizer-experiments/podilizer-experiments/g' {} \;
+find runlog results -type f -exec sed -i -e 's/\/home.*\.m2/.m2/g' {} \;
