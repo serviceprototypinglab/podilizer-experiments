@@ -9,7 +9,7 @@ javacode_repo=git@srv-lab-t-401.zhaw.ch:tooling/javacode.git
 if [ ! -d podilizer ]; then
 
 # Ensure that dependencies are met [Debian stretch/Ubuntu yakkety]
-sudo apt-get install openjdk-8-jdk maven
+sudo apt-get install openjdk-8-jdk maven openjfx
 
 # Fetch Podilizer and input data
 git clone -b testbranch $podilizer_repo podilizer
