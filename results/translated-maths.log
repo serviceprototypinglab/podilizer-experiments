@@ -2,7 +2,7 @@
 ---Translation started---
 
 
----Translation finished in 00 min,00 sec,081 millisec---
+---Translation finished in 00 min,00 sec,083 millisec---
 
 
 ---Building started.---
@@ -33,9 +33,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.083 s
-[INFO] Finished at: 2017-01-19T10:02:12+01:00
-[INFO] Final Memory: 18M/297M
+[INFO] Total time: 1.051 s
+[INFO] Finished at: 2017-01-19T16:04:48+01:00
+[INFO] Final Memory: 18M/302M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
@@ -76,9 +76,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.039 s
-[INFO] Finished at: 2017-01-19T10:02:14+01:00
-[INFO] Final Memory: 18M/304M
+[INFO] Total time: 0.987 s
+[INFO] Finished at: 2017-01-19T16:04:50+01:00
+[INFO] Final Memory: 18M/297M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
@@ -94,5 +94,5 @@
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 
----Building finished in 00 min,04 sec,402 millisec---
+---Building finished in 00 min,04 sec,247 millisec---
 

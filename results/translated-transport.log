@@ -2,7 +2,7 @@
 ---Translation started---
 
 
----Translation finished in 00 min,00 sec,216 millisec---
+---Translation finished in 00 min,00 sec,199 millisec---
 
 
 ---Building started.---
@@ -119,9 +119,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.209 s
-[INFO] Finished at: 2017-01-19T10:02:17+01:00
-[INFO] Final Memory: 18M/295M
+[INFO] Total time: 1.537 s
+[INFO] Finished at: 2017-01-19T16:07:01+01:00
+[INFO] Final Memory: 18M/300M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/testStatistics/src/main/java/awsl/unpackaged/TransportTest/main1/OutputType.java:[3,17] package org.junit does not exist
@@ -331,9 +331,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.485 s
-[INFO] Finished at: 2017-01-19T10:02:19+01:00
-[INFO] Final Memory: 17M/225M
+[INFO] Total time: 1.225 s
+[INFO] Finished at: 2017-01-19T16:07:03+01:00
+[INFO] Final Memory: 18M/300M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/testAnalysis/src/main/java/awsl/unpackaged/TransportTest/testStatistics/InputType.java:[3,17] package org.junit does not exist
@@ -540,9 +540,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.276 s
-[INFO] Finished at: 2017-01-19T10:02:22+01:00
-[INFO] Final Memory: 17M/232M
+[INFO] Total time: 1.416 s
+[INFO] Finished at: 2017-01-19T16:07:05+01:00
+[INFO] Final Memory: 18M/301M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportTest/main1/src/main/java/awsl/unpackaged/TransportTest/testAnalysis/OutputType.java:[3,17] package org.junit does not exist
@@ -716,9 +716,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.431 s
-[INFO] Finished at: 2017-01-19T10:02:24+01:00
-[INFO] Final Memory: 18M/295M
+[INFO] Total time: 1.456 s
+[INFO] Finished at: 2017-01-19T16:07:08+01:00
+[INFO] Final Memory: 18M/299M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/parse/src/main/java/awsl/unpackaged/TransportAnalysis/analyse1/InputType.java:[3,21] package com.csvreader does not exist
@@ -862,9 +862,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.127 s
-[INFO] Finished at: 2017-01-19T10:02:26+01:00
-[INFO] Final Memory: 18M/302M
+[INFO] Total time: 1.325 s
+[INFO] Finished at: 2017-01-19T16:07:11+01:00
+[INFO] Final Memory: 17M/230M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/prepare2/src/main/java/awsl/unpackaged/TransportTest/testStatistics/OutputType.java:[3,17] package org.junit does not exist
@@ -1008,9 +1008,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.192 s
-[INFO] Finished at: 2017-01-19T10:02:29+01:00
-[INFO] Final Memory: 17M/232M
+[INFO] Total time: 1.429 s
+[INFO] Finished at: 2017-01-19T16:07:13+01:00
+[INFO] Final Memory: 18M/303M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/Transport/main1/src/main/java/awsl/unpackaged/TransportTest/testStatistics/OutputType.java:[3,17] package org.junit does not exist
@@ -1154,9 +1154,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.428 s
-[INFO] Finished at: 2017-01-19T10:02:31+01:00
-[INFO] Final Memory: 17M/229M
+[INFO] Total time: 1.355 s
+[INFO] Finished at: 2017-01-19T16:07:16+01:00
+[INFO] Final Memory: 17M/230M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportStatistics/setCompanies1/src/main/java/awsl/unpackaged/TransportAnalysis/read1/OutputType.java:[3,21] package com.csvreader does not exist
@@ -1300,9 +1300,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.279 s
-[INFO] Finished at: 2017-01-19T10:02:33+01:00
-[INFO] Final Memory: 18M/300M
+[INFO] Total time: 1.084 s
+[INFO] Finished at: 2017-01-19T16:07:18+01:00
+[INFO] Final Memory: 17M/231M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportStatistics/setEntries1/src/main/java/awsl/unpackaged/TransportTest/main1/OutputType.java:[3,17] package org.junit does not exist
@@ -1455,8 +1455,8 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.152 s
-[INFO] Finished at: 2017-01-19T10:02:36+01:00
+[INFO] Total time: 1.136 s
+[INFO] Finished at: 2017-01-19T16:07:20+01:00
 [INFO] Final Memory: 18M/299M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
@@ -1613,9 +1613,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.144 s
-[INFO] Finished at: 2017-01-19T10:02:38+01:00
-[INFO] Final Memory: 18M/300M
+[INFO] Total time: 1.333 s
+[INFO] Finished at: 2017-01-19T16:07:23+01:00
+[INFO] Final Memory: 18M/299M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportAnalysis/analyse1/src/main/java/awsl/unpackaged/TransportAnalysis/read1/InputType.java:[3,21] package com.csvreader does not exist
@@ -1684,5 +1684,5 @@
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 
----Building finished in 00 min,23 sec,762 millisec---
+---Building finished in 00 min,25 sec,150 millisec---
 

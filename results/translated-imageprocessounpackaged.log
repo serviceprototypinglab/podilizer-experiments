@@ -2,7 +2,7 @@
 ---Translation started---
 
 
----Translation finished in 00 min,00 sec,089 millisec---
+---Translation finished in 00 min,00 sec,094 millisec---
 
 
 ---Building started.---
@@ -42,9 +42,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.104 s
-[INFO] Finished at: 2017-01-19T10:01:58+01:00
-[INFO] Final Memory: 17M/293M
+[INFO] Total time: 1.049 s
+[INFO] Finished at: 2017-01-19T16:04:33+01:00
+[INFO] Final Memory: 17M/296M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
@@ -100,9 +100,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.050 s
-[INFO] Finished at: 2017-01-19T10:02:01+01:00
-[INFO] Final Memory: 17M/229M
+[INFO] Total time: 1.028 s
+[INFO] Finished at: 2017-01-19T16:04:35+01:00
+[INFO] Final Memory: 17M/233M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
@@ -158,9 +158,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.205 s
-[INFO] Finished at: 2017-01-19T10:02:03+01:00
-[INFO] Final Memory: 17M/292M
+[INFO] Total time: 1.752 s
+[INFO] Finished at: 2017-01-19T16:04:38+01:00
+[INFO] Final Memory: 17M/236M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
@@ -217,9 +217,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.020 s
-[INFO] Finished at: 2017-01-19T10:02:05+01:00
-[INFO] Final Memory: 17M/295M
+[INFO] Total time: 1.353 s
+[INFO] Finished at: 2017-01-19T16:04:41+01:00
+[INFO] Final Memory: 17M/217M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
@@ -276,9 +276,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.125 s
-[INFO] Finished at: 2017-01-19T10:02:07+01:00
-[INFO] Final Memory: 17M/295M
+[INFO] Total time: 1.121 s
+[INFO] Finished at: 2017-01-19T16:04:43+01:00
+[INFO] Final Memory: 17M/234M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
@@ -335,9 +335,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.981 s
-[INFO] Finished at: 2017-01-19T10:02:09+01:00
-[INFO] Final Memory: 17M/229M
+[INFO] Total time: 1.283 s
+[INFO] Finished at: 2017-01-19T16:04:46+01:00
+[INFO] Final Memory: 18M/307M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
 [ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
@@ -359,5 +359,5 @@
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 
----Building finished in 00 min,13 sec,025 millisec---
+---Building finished in 00 min,14 sec,903 millisec---
 
