@@ -40,5 +40,6 @@ for project in $projects; do
 	fi
 done
 
+touch runlog
 find runlog results -type f -exec sed -i -e 's/\/home.*podilizer-experiments/podilizer-experiments/g' {} \;
 find runlog results -type f -exec sed -i -e 's/\/home.*\.m2/.m2/g' {} \;
