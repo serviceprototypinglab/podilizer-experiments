@@ -31,9 +31,9 @@ public class BoxContainer {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         };

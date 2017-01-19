@@ -17,17 +17,17 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/classes
+[INFO] Compiling 9 source files to podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
 [INFO] 2 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -38,8 +38,8 @@
 [INFO] Final Memory: 18M/297M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -57,20 +57,20 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/classes
+[INFO] Compiling 9 source files to podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
 [INFO] 5 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -81,11 +81,11 @@
 [INFO] Final Memory: 18M/304M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.

@@ -17,16 +17,16 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 17 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/classes
+[INFO] Compiling 17 source files to podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/src/test/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
 [INFO] No sources to compile
@@ -35,7 +35,7 @@
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
-[INFO] Building jar: /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Building jar: podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
 [INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
@@ -60,11 +60,11 @@
 [INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
 [INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] Replacing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -82,16 +82,16 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 17 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/classes
+[INFO] Compiling 17 source files to podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/src/test/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
 [INFO] No sources to compile
@@ -100,7 +100,7 @@
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
-[INFO] Building jar: /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Building jar: podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
 [INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
@@ -125,11 +125,11 @@
 [INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
 [INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] Replacing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -147,16 +147,16 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 17 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/classes
+[INFO] Compiling 17 source files to podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/src/test/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
 [INFO] No sources to compile
@@ -165,7 +165,7 @@
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
-[INFO] Building jar: /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Building jar: podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
 [INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
@@ -190,11 +190,11 @@
 [INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
 [INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] Replacing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -212,16 +212,16 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 17 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/classes
+[INFO] Compiling 17 source files to podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/src/test/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
 [INFO] No sources to compile
@@ -230,7 +230,7 @@
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
-[INFO] Building jar: /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Building jar: podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
 [INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
@@ -255,11 +255,11 @@
 [INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
 [INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] Replacing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -277,16 +277,16 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 17 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/classes
+[INFO] Compiling 17 source files to podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/classes
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/src/test/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
 [INFO] No sources to compile
@@ -295,7 +295,7 @@
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
-[INFO] Building jar: /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Building jar: podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
 [INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
@@ -320,11 +320,11 @@
 [INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
 [INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] Replacing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
 [INFO] 
 [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
-[INFO] Installing /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------

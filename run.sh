@@ -39,3 +39,6 @@ for project in $projects; do
 		time java -jar target/Podilizer-0.1.jar -t $origdir/javacode/$project $origdir/results/translated-$project -b $origdir/results/translated-$project additional/conf/pom.xml > $log
 	fi
 done
+
+find -type f -exec sed -i -e 's/\/home.*podilizer-experiments/podilizer-experiments/g' {} \;
+find -type f -exec sed -i -e 's/\.m2/g' {} \;

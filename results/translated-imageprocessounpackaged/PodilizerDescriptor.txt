@@ -1,6 +1,6 @@
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
-/home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
+podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1

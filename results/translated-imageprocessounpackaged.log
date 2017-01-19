@@ -17,26 +17,26 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -47,17 +47,17 @@
 [INFO] Final Memory: 17M/293M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -75,26 +75,26 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -105,17 +105,17 @@
 [INFO] Final Memory: 17M/229M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -133,26 +133,26 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -163,17 +163,17 @@
 [INFO] Final Memory: 17M/292M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -188,30 +188,30 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] Deleting /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target
+[INFO] Deleting podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -222,17 +222,17 @@
 [INFO] Final Memory: 17M/295M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -247,30 +247,30 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] Deleting /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target
+[INFO] Deleting podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -281,17 +281,17 @@
 [INFO] Final Memory: 17M/295M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
@@ -306,30 +306,30 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] 
 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] Deleting /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target
+[INFO] Deleting podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/resources
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 10 source files to /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target/classes
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/target/classes
 [INFO] -------------------------------------------------------------
 [ERROR] COMPILATION ERROR : 
 [INFO] -------------------------------------------------------------
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [INFO] 11 errors 
 [INFO] -------------------------------------------------------------
 [INFO] ------------------------------------------------------------------------
@@ -340,17 +340,17 @@
 [INFO] Final Memory: 17M/229M
 [INFO] ------------------------------------------------------------------------
 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
-[ERROR] /home/dord/SPLab/testsPodilizer/podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[23,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/description/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/name/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/awsl/unpackaged/Plugin/process1/InputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/OutputType.java:[3,1] package unpackaged does not exist
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[39,19] missing method body, or declare abstract
+[ERROR] podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1/src/main/java/lambda_function/LambdaFunction.java:[41,19] missing method body, or declare abstract
 [ERROR] -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
