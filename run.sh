@@ -12,17 +12,17 @@ if [ ! -d podilizer ]; then
 sudo apt-get install openjdk-8-jdk maven
 
 # Fetch Podilizer and input data
-git clone -b testbranch $podilizer_repo
+git clone -b testbranch $podilizer_repo podilizer
 git clone $javacode_repo
 
 # Build Podilizer
-(cd service_tooling_initiative; mvn install)
+(cd podilizer; mvn install)
 
 else
 
 # Update
 
-(cd service_tooling_initiative; git pull; mvn install)
+(cd podilizer; git pull; mvn install)
 (cd javacode; git pull)
 
 fi
@@ -30,7 +30,7 @@ fi
 projects=`ls javacode`
 origdir=$PWD
 mkdir -p $origdir/results
-cd service_tooling_initiative
+cd podilizer
 
 for project in $projects; do
 	if [ -d $origdir/javacode/$project ]; then
