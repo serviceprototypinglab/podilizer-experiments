@@ -1,8 +1,9 @@
 
 ---Translation started---
 
+size0
 
----Translation finished in 00 min,00 sec,122 millisec---
+---Translation finished in 00 min, 00.313 sec---
 
 
 ---Building started.---
@@ -68,9 +69,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.096 s
-[INFO] Finished at: 2017-01-19T16:03:20+01:00
-[INFO] Final Memory: 20M/295M
+[INFO] Total time: 2.442 s
+[INFO] Finished at: 2017-01-23T17:09:44+01:00
+[INFO] Final Memory: 34M/297M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -133,9 +134,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.302 s
-[INFO] Finished at: 2017-01-19T16:03:24+01:00
-[INFO] Final Memory: 21M/300M
+[INFO] Total time: 2.253 s
+[INFO] Finished at: 2017-01-23T17:09:48+01:00
+[INFO] Final Memory: 21M/319M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -198,9 +199,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.190 s
-[INFO] Finished at: 2017-01-19T16:03:27+01:00
-[INFO] Final Memory: 20M/297M
+[INFO] Total time: 2.532 s
+[INFO] Finished at: 2017-01-23T17:09:51+01:00
+[INFO] Final Memory: 21M/328M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -263,9 +264,9 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.404 s
-[INFO] Finished at: 2017-01-19T16:03:30+01:00
-[INFO] Final Memory: 24M/297M
+[INFO] Total time: 2.438 s
+[INFO] Finished at: 2017-01-23T17:09:55+01:00
+[INFO] Final Memory: 20M/303M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -328,10 +329,10 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.163 s
-[INFO] Finished at: 2017-01-19T16:03:34+01:00
-[INFO] Final Memory: 20M/298M
+[INFO] Total time: 2.207 s
+[INFO] Finished at: 2017-01-23T17:09:58+01:00
+[INFO] Final Memory: 22M/322M
 [INFO] ------------------------------------------------------------------------
 
----Building finished in 00 min,16 sec,535 millisec---
+---Building finished in 00 min, 17.436 sec---
 

@@ -42,12 +42,13 @@ public class Transport {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "unpackaged_Transport_parse";
         Region region;
@@ -66,17 +67,15 @@ public class Transport {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.unpackaged.Transport.parse.OutputType outputType = null;
+        awsl.unpackaged.Transport.parse.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.unpackaged.Transport.parse.OutputType.class);
-        } catch(Exception e) {
-          
-            };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.unpackaged.Transport.parse.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
         this.stats = outputType.getStats();
     }
 

@@ -1,8 +1,11 @@
 
 ---Translation started---
 
+size1
+podilizer-experiments/javacode/maths/Maths.java exists
+deleted podilizer-experiments/javacode/maths/Maths.java
 
----Translation finished in 00 min,00 sec,083 millisec---
+---Translation finished in 00 min, 00.118 sec---
 
 
 ---Building started.---
@@ -22,31 +25,56 @@
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
-[INFO] 2 errors 
-[INFO] -------------------------------------------------------------
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.051 s
-[INFO] Finished at: 2017-01-19T16:04:48+01:00
-[INFO] Final Memory: 18M/302M
+[INFO] Total time: 2.065 s
+[INFO] Finished at: 2017-01-23T17:10:02+01:00
+[INFO] Final Memory: 19M/298M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -62,37 +90,56 @@
 [INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
-[INFO] 5 errors 
-[INFO] -------------------------------------------------------------
+[INFO] Compiling 10 source files to podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/target/lambda-java-example-1.0-SNAPSHOT.jar to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/pom.xml to .m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.987 s
-[INFO] Finished at: 2017-01-19T16:04:50+01:00
-[INFO] Final Memory: 18M/297M
+[INFO] Total time: 2.114 s
+[INFO] Finished at: 2017-01-23T17:10:05+01:00
+[INFO] Final Memory: 20M/321M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure: Compilation failure:
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java:[24,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java:[4,1] package unpackaged does not exist
-[ERROR] podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java:[4,1] package unpackaged does not exist
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
 
----Building finished in 00 min,04 sec,247 millisec---
+---Building finished in 00 min, 06.395 sec---
 

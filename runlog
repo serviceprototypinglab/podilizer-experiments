@@ -112,43 +112,38 @@ Already up-to-date.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.176 s
-[INFO] Finished at: 2017-01-19T16:03:10+01:00
-[INFO] Final Memory: 13M/304M
+[INFO] Total time: 1.266 s
+[INFO] Finished at: 2017-01-23T17:09:30+01:00
+[INFO] Final Memory: 13M/297M
 [INFO] ------------------------------------------------------------------------
 Already up-to-date.
 Converting buttons...
 
-real	0m6.703s
-user	0m24.296s
-sys	0m0.508s
+real	0m9.228s
+user	0m32.256s
+sys	0m0.684s
 Converting containers...
 
-real	0m16.728s
-user	0m57.916s
-sys	0m1.356s
+real	0m17.817s
+user	1m2.832s
+sys	0m1.268s
 Converting imageprocessor...
 
-real	0m57.211s
-user	3m34.200s
-sys	0m4.140s
-Converting imageprocessounpackaged...
-
-real	0m15.065s
-user	0m55.272s
-sys	0m1.184s
+real	0m0.190s
+user	0m0.308s
+sys	0m0.032s
 Converting maths...
 
-real	0m4.398s
-user	0m16.056s
-sys	0m0.344s
+real	0m6.582s
+user	0m21.896s
+sys	0m0.508s
 Converting parser...
 
-real	2m7.133s
-user	7m58.404s
-sys	0m9.328s
+real	0m13.125s
+user	0m49.080s
+sys	0m0.992s
 Converting transport...
 
-real	0m25.426s
-user	1m35.560s
-sys	0m1.772s
+real	0m25.964s
+user	1m38.904s
+sys	0m1.656s

@@ -1,4 +1,6 @@
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/OutputType.java
+podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/wizardmath/MathWizard.java
+podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/unpackaged/Maths.java
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/wizardmath/MathWizard/sum2/OutputType.java
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/InputType.java
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/wizardmath/MathWizard/sum2/InputType.java
@@ -6,4 +8,3 @@ podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/m
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/InputType.java
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/lambda_function/LambdaFunction.java
 podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/awsl/unpackaged/Maths/main1/OutputType.java
-podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1/src/main/java/MathWizard.java

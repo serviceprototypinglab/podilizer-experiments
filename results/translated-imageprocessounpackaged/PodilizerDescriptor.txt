@@ -1,6 +1,0 @@
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/name
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/description
-podilizer-experiments/results/translated-imageprocessounpackaged/LambdaProjects/unpackaged/Plugin/process1

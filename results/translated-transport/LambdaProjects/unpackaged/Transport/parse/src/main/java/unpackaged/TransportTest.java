@@ -33,12 +33,13 @@ public class TransportTest {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "unpackaged_TransportTest_testStatistics";
         Region region;
@@ -57,17 +58,15 @@ public class TransportTest {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.unpackaged.TransportTest.testStatistics.OutputType outputType = null;
+        awsl.unpackaged.TransportTest.testStatistics.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.unpackaged.TransportTest.testStatistics.OutputType.class);
-        } catch(Exception e) {
-          
-            };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.unpackaged.TransportTest.testStatistics.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
     }
 
     @Test
@@ -81,12 +80,13 @@ public class TransportTest {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "unpackaged_TransportTest_testAnalysis";
         Region region;
@@ -105,17 +105,15 @@ public class TransportTest {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.unpackaged.TransportTest.testAnalysis.OutputType outputType = null;
+        awsl.unpackaged.TransportTest.testAnalysis.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.unpackaged.TransportTest.testAnalysis.OutputType.class);
-        } catch(Exception e) {
-          
-            };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.unpackaged.TransportTest.testAnalysis.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
     }
 
     public static final void main(String[] args) {

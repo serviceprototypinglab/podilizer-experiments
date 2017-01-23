@@ -53,12 +53,13 @@ public class Box {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "com_company_Box_volume";
         Region region;
@@ -77,17 +78,15 @@ public class Box {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.com.company.Box.volume.OutputType outputType = null;
+        awsl.com.company.Box.volume.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.com.company.Box.volume.OutputType.class);
-        } catch(Exception e) {
-          
-            };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.com.company.Box.volume.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
         this.h = outputType.getH();
         this.w = outputType.getW();
         this.l = outputType.getL();

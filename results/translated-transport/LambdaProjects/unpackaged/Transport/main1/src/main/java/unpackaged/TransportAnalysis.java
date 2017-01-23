@@ -32,12 +32,13 @@ public class TransportAnalysis {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "unpackaged_TransportAnalysis_read1";
         Region region;
@@ -56,22 +57,21 @@ public class TransportAnalysis {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.unpackaged.TransportAnalysis.read1.OutputType outputType = null;
+        awsl.unpackaged.TransportAnalysis.read1.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.unpackaged.TransportAnalysis.read1.OutputType.class);
-        } catch(Exception e) {
-          
-            };
-        if(outputType.getLambdaException() != null){
-           if (outputType.getLambdaException().getClass().getSimpleName().equals("Exception")){
-               throw (Exception)outputType.getLambdaException();
-           }
-                    };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.unpackaged.TransportAnalysis.read1.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
+        if (outputType.getLambdaException() != null) {
+            if (outputType.getLambdaException().getClass().getSimpleName().equals("Exception")) {
+                throw (Exception) outputType.getLambdaException();
+            }
+        }
+        ;
         return outputType.getReadResult();
     }
 
@@ -85,12 +85,13 @@ public class TransportAnalysis {
             regionName = System.getenv("awsRegion");
         } else {
             try {
-            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
-            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
-            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        };
+                awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+                awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+                regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-transport/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            ;
         }
         String functionName = "unpackaged_TransportAnalysis_analyse1";
         Region region;
@@ -109,17 +110,15 @@ public class TransportAnalysis {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-       awsl.unpackaged.TransportAnalysis.analyse1.OutputType outputType = null;
+        awsl.unpackaged.TransportAnalysis.analyse1.OutputType outputType = null;
         try {
             InvokeRequest invokeRequest = new InvokeRequest();
             invokeRequest.setFunctionName(functionName);
             invokeRequest.setPayload(json);
-        outputType = objectMapper.readValue(byteBufferToString(
-                    lambdaClient.invoke(invokeRequest).getPayload(),
-                    Charset.forName("UTF-8")),awsl.unpackaged.TransportAnalysis.analyse1.OutputType.class);
-        } catch(Exception e) {
-          
-            };
+            outputType = objectMapper.readValue(byteBufferToString(lambdaClient.invoke(invokeRequest).getPayload(), Charset.forName("UTF-8")), awsl.unpackaged.TransportAnalysis.analyse1.OutputType.class);
+        } catch (Exception e) {
+        }
+        ;
     }
 
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
