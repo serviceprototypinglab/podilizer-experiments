@@ -1,4 +1,13 @@
-Already up-to-date.
+From srv-lab-t-401.zhaw.ch:dord/service_tooling_initiative
+   ebc0733..ec39169  testbranch -> origin/testbranch
+Updating ebc0733..ec39169
+Fast-forward
+ .../java/ch/zhaw/file_operations/JarBuilder.java   |   2 +-
+ .../ch/zhaw/file_operations/JavaProjectEntity.java |  14 +-
+ .../file_operations/SupportClassTreeCreator.java   |  14 +-
+ .../java/ch/zhaw/file_operations/Translator.java   |  13 +-
+ .../java/ch/zhaw/file_operations/UtilityClass.java | 177 ++++++++++++++++++---
+ 5 files changed, 177 insertions(+), 43 deletions(-)
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -10,7 +19,10 @@ Already up-to-date.
 [INFO] skip non existing resourceDirectory podilizer-experiments/podilizer/src/main/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ Podilizer ---
-[INFO] Nothing to compile - all classes are up to date
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to podilizer-experiments/podilizer/target/classes
+[INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Some input files use unchecked or unsafe operations.
+[INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Podilizer ---
 [INFO] Using 'ASCII' encoding to copy filtered resources.
@@ -23,6 +35,7 @@ Already up-to-date.
 [INFO] No tests to run.
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ Podilizer ---
+[INFO] Building jar: podilizer-experiments/podilizer/target/Podilizer-0.1.jar
 [INFO] 
 [INFO] --- maven-shade-plugin:2.3:shade (default) @ Podilizer ---
 [INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
@@ -31,78 +44,6 @@ Already up-to-date.
 [INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
 [INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
 [INFO] Including commons-cli:commons-cli:jar:1.3.1 in the shaded jar.
-[WARNING] Podilizer-0.1.jar, plexus-utils-2.0.5.jar define 95 overlappping classes: 
-[WARNING]   - org.codehaus.plexus.util.cli.EnhancedStringTokenizer
-[WARNING]   - org.codehaus.plexus.util.reflection.ReflectorException
-[WARNING]   - org.codehaus.plexus.util.FileUtils$FilterWrapper
-[WARNING]   - org.codehaus.plexus.util.introspection.ClassMap
-[WARNING]   - org.codehaus.plexus.util.introspection.ReflectionValueExtractor
-[WARNING]   - org.codehaus.plexus.util.io.FileInputStreamFacade
-[WARNING]   - org.codehaus.plexus.util.InterpolationFilterReader
-[WARNING]   - org.codehaus.plexus.util.cli.shell.CmdShell
-[WARNING]   - org.codehaus.plexus.util.cli.shell.Shell
-[WARNING]   - org.codehaus.plexus.util.Os
-[WARNING]   - 85 more...
-[WARNING] Podilizer-0.1.jar, jyaml-1.3.jar define 57 overlappping classes: 
-[WARNING]   - org.ho.yaml.ListState$1
-[WARNING]   - yaml.parser.YamlParserRefEvent
-[WARNING]   - org.ho.yaml.YamlStream
-[WARNING]   - org.ho.yaml.YamlEncoder
-[WARNING]   - org.ho.yaml.wrapper.ColorWrapper
-[WARNING]   - org.ho.yaml.State
-[WARNING]   - org.ho.util.Logger
-[WARNING]   - yaml.parser.YamlCharacter
-[WARNING]   - org.ho.yaml.wrapper.AbstractWrapper
-[WARNING]   - org.ho.yaml.wrapper.ObjectWrapper
-[WARNING]   - 47 more...
-[WARNING] Podilizer-0.1.jar, javaparser-1.0.11.jar define 128 overlappping classes: 
-[WARNING]   - japa.parser.ast.expr.EnclosedExpr
-[WARNING]   - japa.parser.ast.TreeVisitor
-[WARNING]   - japa.parser.ast.expr.MethodCallExpr
-[WARNING]   - japa.parser.ast.TypeParameter
-[WARNING]   - japa.parser.ast.expr.AnnotationExpr
-[WARNING]   - japa.parser.ast.stmt.TypeDeclarationStmt
-[WARNING]   - japa.parser.ast.CompilationUnit
-[WARNING]   - japa.parser.ast.body.AnnotationDeclaration
-[WARNING]   - japa.parser.ast.stmt.WhileStmt
-[WARNING]   - japa.parser.ast.expr.BinaryExpr
-[WARNING]   - 118 more...
-[WARNING] Podilizer-0.1.jar, plexus-component-annotations-1.5.5.jar define 3 overlappping classes: 
-[WARNING]   - org.codehaus.plexus.component.annotations.Requirement
-[WARNING]   - org.codehaus.plexus.component.annotations.Component
-[WARNING]   - org.codehaus.plexus.component.annotations.Configuration
-[WARNING] Podilizer-0.1.jar, commons-cli-1.3.1.jar define 26 overlappping classes: 
-[WARNING]   - org.apache.commons.cli.HelpFormatter$OptionComparator
-[WARNING]   - org.apache.commons.cli.ParseException
-[WARNING]   - org.apache.commons.cli.OptionValidator
-[WARNING]   - org.apache.commons.cli.UnrecognizedOptionException
-[WARNING]   - org.apache.commons.cli.Parser
-[WARNING]   - org.apache.commons.cli.PatternOptionBuilder
-[WARNING]   - org.apache.commons.cli.GnuParser
-[WARNING]   - org.apache.commons.cli.Option
-[WARNING]   - org.apache.commons.cli.CommandLine
-[WARNING]   - org.apache.commons.cli.BasicParser
-[WARNING]   - 16 more...
-[WARNING] Podilizer-0.1.jar, maven-invoker-2.1.1.jar define 15 overlappping classes: 
-[WARNING]   - org.apache.maven.shared.invoker.InvocationResult
-[WARNING]   - org.apache.maven.shared.invoker.SystemOutLogger
-[WARNING]   - org.apache.maven.shared.invoker.MavenInvocationException
-[WARNING]   - org.apache.maven.shared.invoker.PrintStreamLogger
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvoker
-[WARNING]   - org.apache.maven.shared.invoker.PrintStreamHandler
-[WARNING]   - org.apache.maven.shared.invoker.CommandLineConfigurationException
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationRequest
-[WARNING]   - org.apache.maven.shared.invoker.Invoker
-[WARNING]   - org.apache.maven.shared.invoker.DefaultInvocationResult
-[WARNING]   - 5 more...
-[WARNING] maven-shade-plugin has detected that some .class files
-[WARNING] are present in two or more JARs. When this happens, only
-[WARNING] one single version of the class is copied in the uberjar.
-[WARNING] Usually this is not harmful and you can skeep these
-[WARNING] warnings, otherwise try to manually exclude artifacts
-[WARNING] based on mvn dependency:tree -Ddetail=true and the above
-[WARNING] output
-[WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
 [INFO] Replacing original artifact with shaded artifact.
 [INFO] Replacing podilizer-experiments/podilizer/target/Podilizer-0.1-shaded.jar
 [INFO] 
@@ -112,38 +53,48 @@ Already up-to-date.
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.266 s
-[INFO] Finished at: 2017-01-23T17:09:30+01:00
-[INFO] Final Memory: 13M/297M
+[INFO] Total time: 2.684 s
+[INFO] Finished at: 2017-02-03T15:46:09+01:00
+[INFO] Final Memory: 22M/310M
 [INFO] ------------------------------------------------------------------------
-Already up-to-date.
+From srv-lab-t-401.zhaw.ch:tooling/javacode
+   89ca710..4a32784  master     -> origin/master
+Updating 89ca710..4a32784
+Fast-forward
+ README                                         |  3 +++
+ buildall.sh                                    | 14 ++++++++++++++
+ imageprocessor/ImageProcessingApplication.java | 11 ++++++++++-
+ runall.sh                                      | 14 ++++++++++++++
+ 4 files changed, 41 insertions(+), 1 deletion(-)
+ create mode 100755 buildall.sh
+ create mode 100755 runall.sh
 Converting buttons...
 
-real	0m9.228s
-user	0m32.256s
-sys	0m0.684s
+real	0m10.440s
+user	0m36.304s
+sys	0m1.456s
 Converting containers...
 
-real	0m17.817s
-user	1m2.832s
-sys	0m1.268s
+real	0m17.497s
+user	0m59.744s
+sys	0m2.872s
 Converting imageprocessor...
 
-real	0m0.190s
-user	0m0.308s
-sys	0m0.032s
+real	0m0.189s
+user	0m0.344s
+sys	0m0.020s
 Converting maths...
 
-real	0m6.582s
-user	0m21.896s
-sys	0m0.508s
+real	0m6.665s
+user	0m22.756s
+sys	0m0.896s
 Converting parser...
 
-real	0m13.125s
-user	0m49.080s
-sys	0m0.992s
+real	0m15.858s
+user	0m59.520s
+sys	0m2.396s
 Converting transport...
 
-real	0m25.964s
-user	1m38.904s
-sys	0m1.656s
+real	0m25.714s
+user	1m33.808s
+sys	0m4.160s

@@ -112,7 +112,7 @@ public class LambdaFunction implements RequestStreamHandler {
         return new String(bytes, charset);
     }
 
-    public boolean setEntries(int entries) {
+    public boolean setEntries(int entries1) {
         if (entries < 0)
             return false;
         this.entries = entries;

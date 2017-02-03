@@ -112,7 +112,7 @@ public class LambdaFunction implements RequestStreamHandler {
         return new String(bytes, charset);
     }
 
-    public boolean setCompanies(ArrayList<String> companies) {
+    public boolean setCompanies(ArrayList<String> companies1) {
         this.companies = companies;
         return true;
     }

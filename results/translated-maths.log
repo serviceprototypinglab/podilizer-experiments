@@ -1,11 +1,8 @@
 
 ---Translation started---
 
-size1
-podilizer-experiments/javacode/maths/Maths.java exists
-deleted podilizer-experiments/javacode/maths/Maths.java
 
----Translation finished in 00 min, 00.118 sec---
+---Translation finished in 00 min, 00.125 sec---
 
 
 ---Building started.---
@@ -71,9 +68,9 @@ deleted podilizer-experiments/javacode/maths/Maths.java
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.065 s
-[INFO] Finished at: 2017-01-23T17:10:02+01:00
-[INFO] Final Memory: 19M/298M
+[INFO] Total time: 2.088 s
+[INFO] Finished at: 2017-02-03T15:46:41+01:00
+[INFO] Final Memory: 20M/302M
 [INFO] ------------------------------------------------------------------------
 [INFO] Scanning for projects...
 [INFO]                                                                         
@@ -136,10 +133,10 @@ deleted podilizer-experiments/javacode/maths/Maths.java
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.114 s
-[INFO] Finished at: 2017-01-23T17:10:05+01:00
-[INFO] Final Memory: 20M/321M
+[INFO] Total time: 2.239 s
+[INFO] Finished at: 2017-02-03T15:46:45+01:00
+[INFO] Final Memory: 20M/308M
 [INFO] ------------------------------------------------------------------------
 
----Building finished in 00 min, 06.395 sec---
+---Building finished in 00 min, 06.473 sec---
 

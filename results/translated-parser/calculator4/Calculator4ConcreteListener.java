@@ -82,11 +82,101 @@ public class Calculator4ConcreteListener extends Calculator4BaseListener {
     }
 
     public void exitAssignment(AssignmentContext ctx) {
-        sym.put(ctx.ID().getText(), stack.pop());
+        String awsAccessKeyId = "";
+        String awsSecretAccessKey = "";
+        String regionName = "";
+        if (System.getenv("awsAccessKeyId") != null) {
+            awsAccessKeyId = System.getenv("awsAccessKeyId");
+            awsSecretAccessKey = System.getenv("awsSecretAccessKey");
+            regionName = System.getenv("awsRegion");
+        } else {
+            try {
+            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        };
+        }
+        String functionName = "calculator4_Calculator4ConcreteListener_exitAssignment1";
+        Region region;
+        AWSCredentials credentials;
+        AWSLambdaClient lambdaClient;
+        credentials = new BasicAWSCredentials(awsAccessKeyId, awsSecretAccessKey);
+        lambdaClient = (credentials == null) ? new AWSLambdaClient() : new AWSLambdaClient(credentials);
+        region = Region.getRegion(Regions.fromName(regionName));
+        lambdaClient.setRegion(region);
+        awsl.calculator4.Calculator4ConcreteListener.exitAssignment1.InputType inputType = new awsl.calculator4.Calculator4ConcreteListener.exitAssignment1.InputType(this.stack, this.sym, ctx);
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        String json = "";
+        try {
+            json = objectMapper.writeValueAsString(inputType);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+       awsl.calculator4.Calculator4ConcreteListener.exitAssignment1.OutputType outputType = null;
+        try {
+            InvokeRequest invokeRequest = new InvokeRequest();
+            invokeRequest.setFunctionName(functionName);
+            invokeRequest.setPayload(json);
+        outputType = objectMapper.readValue(byteBufferToString(
+                    lambdaClient.invoke(invokeRequest).getPayload(),
+                    Charset.forName("UTF-8")),awsl.calculator4.Calculator4ConcreteListener.exitAssignment1.OutputType.class);
+        } catch(Exception e) {
+          
+            };
+        this.stack = outputType.getStack();
+        this.sym = outputType.getSym();
     }
 
     public void exitInteger(IntegerContext ctx) {
-        stack.push(new Integer(ctx.INT().getText()));
+        String awsAccessKeyId = "";
+        String awsSecretAccessKey = "";
+        String regionName = "";
+        if (System.getenv("awsAccessKeyId") != null) {
+            awsAccessKeyId = System.getenv("awsAccessKeyId");
+            awsSecretAccessKey = System.getenv("awsSecretAccessKey");
+            regionName = System.getenv("awsRegion");
+        } else {
+            try {
+            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-parser/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        };
+        }
+        String functionName = "calculator4_Calculator4ConcreteListener_exitInteger1";
+        Region region;
+        AWSCredentials credentials;
+        AWSLambdaClient lambdaClient;
+        credentials = new BasicAWSCredentials(awsAccessKeyId, awsSecretAccessKey);
+        lambdaClient = (credentials == null) ? new AWSLambdaClient() : new AWSLambdaClient(credentials);
+        region = Region.getRegion(Regions.fromName(regionName));
+        lambdaClient.setRegion(region);
+        awsl.calculator4.Calculator4ConcreteListener.exitInteger1.InputType inputType = new awsl.calculator4.Calculator4ConcreteListener.exitInteger1.InputType(this.stack, this.sym, ctx);
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        String json = "";
+        try {
+            json = objectMapper.writeValueAsString(inputType);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+       awsl.calculator4.Calculator4ConcreteListener.exitInteger1.OutputType outputType = null;
+        try {
+            InvokeRequest invokeRequest = new InvokeRequest();
+            invokeRequest.setFunctionName(functionName);
+            invokeRequest.setPayload(json);
+        outputType = objectMapper.readValue(byteBufferToString(
+                    lambdaClient.invoke(invokeRequest).getPayload(),
+                    Charset.forName("UTF-8")),awsl.calculator4.Calculator4ConcreteListener.exitInteger1.OutputType.class);
+        } catch(Exception e) {
+          
+            };
+        this.stack = outputType.getStack();
+        this.sym = outputType.getSym();
     }
 
     public void exitAddOrSubtract(AddOrSubtractContext ctx) {

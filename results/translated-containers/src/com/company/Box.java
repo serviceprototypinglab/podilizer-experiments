@@ -96,7 +96,54 @@ public class Box {
     }
 
     public void oneLineMethod() {
-        System.out.println("line");
+        String awsAccessKeyId = "";
+        String awsSecretAccessKey = "";
+        String regionName = "";
+        if (System.getenv("awsAccessKeyId") != null) {
+            awsAccessKeyId = System.getenv("awsAccessKeyId");
+            awsSecretAccessKey = System.getenv("awsSecretAccessKey");
+            regionName = System.getenv("awsRegion");
+        } else {
+            try {
+            awsAccessKeyId = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+            awsSecretAccessKey = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+            regionName = Yaml.loadType(new File("podilizer-experiments/results/translated-containers/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        };
+        }
+        String functionName = "com_company_Box_oneLineMethod";
+        Region region;
+        AWSCredentials credentials;
+        AWSLambdaClient lambdaClient;
+        credentials = new BasicAWSCredentials(awsAccessKeyId, awsSecretAccessKey);
+        lambdaClient = (credentials == null) ? new AWSLambdaClient() : new AWSLambdaClient(credentials);
+        region = Region.getRegion(Regions.fromName(regionName));
+        lambdaClient.setRegion(region);
+        awsl.com.company.Box.oneLineMethod.InputType inputType = new awsl.com.company.Box.oneLineMethod.InputType(this.h, this.w, this.l, this.overview);
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        String json = "";
+        try {
+            json = objectMapper.writeValueAsString(inputType);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+       awsl.com.company.Box.oneLineMethod.OutputType outputType = null;
+        try {
+            InvokeRequest invokeRequest = new InvokeRequest();
+            invokeRequest.setFunctionName(functionName);
+            invokeRequest.setPayload(json);
+        outputType = objectMapper.readValue(byteBufferToString(
+                    lambdaClient.invoke(invokeRequest).getPayload(),
+                    Charset.forName("UTF-8")),awsl.com.company.Box.oneLineMethod.OutputType.class);
+        } catch(Exception e) {
+          
+            };
+        this.h = outputType.getH();
+        this.w = outputType.getW();
+        this.l = outputType.getL();
+        this.overview = outputType.getOverview();
     }
 
     @JsonIgnore

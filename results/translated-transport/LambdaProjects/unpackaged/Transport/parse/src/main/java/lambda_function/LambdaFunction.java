@@ -46,15 +46,56 @@ public class LambdaFunction implements RequestStreamHandler {
     }
 
     private void prepare(String fileurl, String filename) throws Exception {
-        if (Files.notExists(Paths.get(filename))) {
-            System.out.println("Downloading data: " + fileurl);
-            URL resource = new URL(fileurl);
-            ReadableByteChannel rbc = Channels.newChannel(resource.openStream());
-            FileOutputStream fos = new FileOutputStream(filename);
-            fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
+        String awsAccessKeyId = "";
+        String awsSecretAccessKey = "";
+        String regionName = "";
+        if (System.getenv("awsAccessKeyId") != null) {
+            awsAccessKeyId = System.getenv("awsAccessKeyId");
+            awsSecretAccessKey = System.getenv("awsSecretAccessKey");
+            regionName = System.getenv("awsRegion");
         } else {
-            System.out.println("Using cached data: " + filename);
+            try {
+            awsAccessKeyId = Yaml.loadType(new File("/jyaml.yml"), AWSConfEntity.class).getAwsAccessKeyId();
+            awsSecretAccessKey = Yaml.loadType(new File("/jyaml.yml"), AWSConfEntity.class).getAwsSecretAccessKey();
+            regionName = Yaml.loadType(new File("/jyaml.yml"), AWSConfEntity.class).getAwsRegion();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        };
         }
+        String functionName = "unpackaged_Transport_prepare2";
+        Region region;
+        AWSCredentials credentials;
+        AWSLambdaClient lambdaClient;
+        credentials = new BasicAWSCredentials(awsAccessKeyId, awsSecretAccessKey);
+        lambdaClient = (credentials == null) ? new AWSLambdaClient() : new AWSLambdaClient(credentials);
+        region = Region.getRegion(Regions.fromName(regionName));
+        lambdaClient.setRegion(region);
+        awsl.unpackaged.Transport.prepare2.InputType inputType = new awsl.unpackaged.Transport.prepare2.InputType(this.stats, fileurl, filename);
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.disable(SerializationFeature.FAIL_ON_EMPTY_BEANS);
+        String json = "";
+        try {
+            json = objectMapper.writeValueAsString(inputType);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+       awsl.unpackaged.Transport.prepare2.OutputType outputType = null;
+        try {
+            InvokeRequest invokeRequest = new InvokeRequest();
+            invokeRequest.setFunctionName(functionName);
+            invokeRequest.setPayload(json);
+        outputType = objectMapper.readValue(byteBufferToString(
+                    lambdaClient.invoke(invokeRequest).getPayload(),
+                    Charset.forName("UTF-8")),awsl.unpackaged.Transport.prepare2.OutputType.class);
+        } catch(Exception e) {
+          
+            };
+        this.stats = outputType.getStats();
+        if(outputType.getLambdaException() != null){
+           if (outputType.getLambdaException().getClass().getSimpleName().equals("Exception")){
+               throw (Exception)outputType.getLambdaException();
+           }
+                    };
     }
 
     public static final void main(String[] args) {
