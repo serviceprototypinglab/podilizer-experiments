@@ -9,6 +9,7 @@ import org.antlr.v4.runtime.tree.*;
 import java.util.List;
 import java.util.Iterator;
 import java.util.ArrayList;
+import com.fasterxml.jackson.annotation.*;
 
 @SuppressWarnings({ "all", "warnings", "unchecked", "unused", "cast" })
 public class Calculator4Parser extends Parser {
@@ -44,6 +45,7 @@ public class Calculator4Parser extends Parser {
     /**
 	 * @deprecated Use {@link #VOCABULARY} instead.
 	 */
+    @Deprecated
     @JsonProperty
     public static final String[] tokenNames;
 
@@ -60,31 +62,38 @@ public class Calculator4Parser extends Parser {
         }
     }
 
+    @Override
+    @Deprecated
     @JsonIgnore
     public String[] getTokenNames() {
         return tokenNames;
     }
 
+    @Override
     @JsonIgnore
     public Vocabulary getVocabulary() {
         return VOCABULARY;
     }
 
+    @Override
     @JsonIgnore
     public String getGrammarFileName() {
         return "Calculator4.antlr";
     }
 
+    @Override
     @JsonIgnore
     public String[] getRuleNames() {
         return ruleNames;
     }
 
+    @Override
     @JsonIgnore
     public String getSerializedATN() {
         return _serializedATN;
     }
 
+    @Override
     @JsonIgnore
     public ATN getATN() {
         return _ATN;
@@ -117,6 +126,7 @@ public class Calculator4Parser extends Parser {
             super(parent, invokingState);
         }
 
+        @Override
         @JsonIgnore
         public int getRuleIndex() {
             return RULE_program;
@@ -197,6 +207,7 @@ public class Calculator4Parser extends Parser {
             super(parent, invokingState);
         }
 
+        @Override
         @JsonIgnore
         public int getRuleIndex() {
             return RULE_assignment;
@@ -244,6 +255,7 @@ public class Calculator4Parser extends Parser {
             super(parent, invokingState);
         }
 
+        @Override
         @JsonIgnore
         public int getRuleIndex() {
             return RULE_expression;
@@ -601,6 +613,7 @@ public class Calculator4Parser extends Parser {
             super(parent, invokingState);
         }
 
+        @Override
         @JsonIgnore
         public int getRuleIndex() {
             return RULE_arg;

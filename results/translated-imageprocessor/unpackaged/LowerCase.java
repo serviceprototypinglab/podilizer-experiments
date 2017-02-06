@@ -1,12 +1,17 @@
 package unpackaged;
 
-interface Plugin {
+import com.fasterxml.jackson.annotation.*;
+
+public interface Plugin {
 
     public String name();
 
     public String description();
 
     public String process(String image);
+
+    public Plugin() {
+    }
 }
 
 class LowerCase implements Plugin {

@@ -10,27 +10,33 @@ import java.io.File;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.MalformedURLException;
+import com.fasterxml.jackson.annotation.*;
 
-interface Plugin {
+public interface Plugin {
 
     public String name();
 
     public String description();
 
     public String process(String image);
+
+    public Plugin() {
+    }
 }
 
 class PluginLoader {
 
+    @JsonProperty
     private String plugindirconf = ".";
 
+    @JsonProperty
     private ArrayList<Plugin> plugins;
 
     public PluginLoader() {
         this.plugins = new ArrayList<Plugin>();
     }
 
-    private void logfail(String context, String s) {
+    public void logfail(String context, String s) {
         System.err.println("ERROR: [" + String.format("%12s", context) + "] " + s);
     }
 
@@ -69,7 +75,7 @@ class PluginLoader {
         }
     }
 
-    private Plugin loadPlugin(String pluginfile, String classname) {
+    public Plugin loadPlugin(String pluginfile, String classname) {
         URL url = null;
         try {
             url = new //" + this.plugindirconf + "/" + pluginfile);
@@ -100,8 +106,10 @@ class PluginLoader {
 
 public class ImageProcessingApplication {
 
+    @JsonProperty
     private String currentimage;
 
+    @JsonProperty
     private ArrayList<Plugin> plugins;
 
     public ImageProcessingApplication() {

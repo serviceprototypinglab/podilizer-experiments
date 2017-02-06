@@ -1,14 +1,18 @@
 package unpackaged;
 
 import java.util.Random;
+import com.fasterxml.jackson.annotation.*;
 
-interface Plugin {
+public interface Plugin {
 
     public String name();
 
     public String description();
 
     public String process(String image);
+
+    public Plugin() {
+    }
 }
 
 class RandomDistortion implements Plugin {

@@ -11,7 +11,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.*;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
-import com.fasterxml.jackson.annotation.*;
 import org.ho.yaml.Yaml;
 import java.io.*;
 import awsl.*;
@@ -23,6 +22,7 @@ import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.misc.*;
+import com.fasterxml.jackson.annotation.*;
 
 @SuppressWarnings({ "all", "warnings", "unchecked", "unused", "cast" })
 public class Calculator4Lexer extends Lexer {
@@ -58,6 +58,7 @@ public class Calculator4Lexer extends Lexer {
     /**
 	 * @deprecated Use {@link #VOCABULARY} instead.
 	 */
+    @Deprecated
     @JsonProperty
     public static final String[] tokenNames;
 
@@ -74,11 +75,14 @@ public class Calculator4Lexer extends Lexer {
         }
     }
 
+    @Override
+    @Deprecated
     @JsonIgnore
     public String[] getTokenNames() {
         return tokenNames;
     }
 
+    @Override
     @JsonIgnore
     public Vocabulary getVocabulary() {
         return VOCABULARY;
@@ -89,26 +93,31 @@ public class Calculator4Lexer extends Lexer {
         _interp = new LexerATNSimulator(this, _ATN, _decisionToDFA, _sharedContextCache);
     }
 
+    @Override
     @JsonIgnore
     public String getGrammarFileName() {
         return "Calculator4.antlr";
     }
 
+    @Override
     @JsonIgnore
     public String[] getRuleNames() {
         return ruleNames;
     }
 
+    @Override
     @JsonIgnore
     public String getSerializedATN() {
         return _serializedATN;
     }
 
+    @Override
     @JsonIgnore
     public String[] getModeNames() {
         return modeNames;
     }
 
+    @Override
     @JsonIgnore
     public ATN getATN() {
         return _ATN;

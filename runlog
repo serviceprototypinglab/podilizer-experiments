@@ -1,13 +1,38 @@
-From srv-lab-t-401.zhaw.ch:dord/service_tooling_initiative
-   ebc0733..ec39169  testbranch -> origin/testbranch
-Updating ebc0733..ec39169
-Fast-forward
- .../java/ch/zhaw/file_operations/JarBuilder.java   |   2 +-
- .../ch/zhaw/file_operations/JavaProjectEntity.java |  14 +-
- .../file_operations/SupportClassTreeCreator.java   |  14 +-
- .../java/ch/zhaw/file_operations/Translator.java   |  13 +-
- .../java/ch/zhaw/file_operations/UtilityClass.java | 177 ++++++++++++++++++---
- 5 files changed, 177 insertions(+), 43 deletions(-)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+maven is already the newest version (3.3.9-3).
+openjdk-8-jdk is already the newest version (8u121-b13-0ubuntu1.16.04.2).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-53 linux-headers-4.4.0-53-generic
+  linux-image-4.4.0-53-generic linux-image-extra-4.4.0-53-generic
+  ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  libopenjfx-java libopenjfx-jni openjfx
+0 upgraded, 3 newly installed, 0 to remove and 98 not upgraded.
+Need to get 18.4 MB of archives.
+After this operation, 50.8 MB of additional disk space will be used.
+Get:1 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenjfx-jni amd64 8u60-b27-4 [8,422 kB]
+Get:2 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenjfx-java all 8u60-b27-4 [9,917 kB]
+Get:3 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 openjfx amd64 8u60-b27-4 [34.4 kB]
+Fetched 18.4 MB in 31s (577 kB/s)
+Selecting previously unselected package libopenjfx-jni.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 311447 files and directories currently installed.)
+Preparing to unpack .../libopenjfx-jni_8u60-b27-4_amd64.deb ...
+Unpacking libopenjfx-jni (8u60-b27-4) ...
+Selecting previously unselected package libopenjfx-java.
+Preparing to unpack .../libopenjfx-java_8u60-b27-4_all.deb ...
+Unpacking libopenjfx-java (8u60-b27-4) ...
+Selecting previously unselected package openjfx.
+Preparing to unpack .../openjfx_8u60-b27-4_amd64.deb ...
+Unpacking openjfx (8u60-b27-4) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libopenjfx-jni (8u60-b27-4) ...
+Setting up libopenjfx-java (8u60-b27-4) ...
+Setting up openjfx (8u60-b27-4) ...
+Cloning into 'podilizer'...
+Cloning into 'javacode'...
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -53,48 +78,37 @@ Fast-forward
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.684 s
-[INFO] Finished at: 2017-02-03T15:46:09+01:00
-[INFO] Final Memory: 22M/310M
+[INFO] Total time: 2.209 s
+[INFO] Finished at: 2017-02-06T11:36:59+01:00
+[INFO] Final Memory: 24M/317M
 [INFO] ------------------------------------------------------------------------
-From srv-lab-t-401.zhaw.ch:tooling/javacode
-   89ca710..4a32784  master     -> origin/master
-Updating 89ca710..4a32784
-Fast-forward
- README                                         |  3 +++
- buildall.sh                                    | 14 ++++++++++++++
- imageprocessor/ImageProcessingApplication.java | 11 ++++++++++-
- runall.sh                                      | 14 ++++++++++++++
- 4 files changed, 41 insertions(+), 1 deletion(-)
- create mode 100755 buildall.sh
- create mode 100755 runall.sh
 Converting buttons...
 
-real	0m10.440s
-user	0m36.304s
-sys	0m1.456s
+real	0m9.968s
+user	0m34.600s
+sys	0m1.260s
 Converting containers...
 
-real	0m17.497s
-user	0m59.744s
-sys	0m2.872s
+real	0m16.641s
+user	0m58.120s
+sys	0m1.980s
 Converting imageprocessor...
 
-real	0m0.189s
-user	0m0.344s
-sys	0m0.020s
+real	0m0.191s
+user	0m0.328s
+sys	0m0.024s
 Converting maths...
 
-real	0m6.665s
-user	0m22.756s
-sys	0m0.896s
+real	0m6.559s
+user	0m22.040s
+sys	0m0.840s
 Converting parser...
 
-real	0m15.858s
-user	0m59.520s
-sys	0m2.396s
+real	0m12.987s
+user	0m47.648s
+sys	0m1.208s
 Converting transport...
 
-real	0m25.714s
-user	1m33.808s
-sys	0m4.160s
+real	0m36.120s
+user	2m5.252s
+sys	0m4.928s
