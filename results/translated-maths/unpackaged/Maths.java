@@ -23,9 +23,6 @@ public class Maths {
         System.out.println(mw.sum(1, 1));
     }
 
-    public Maths() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

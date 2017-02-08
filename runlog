@@ -1,38 +1,11 @@
-Reading package lists...
-Building dependency tree...
-Reading state information...
-maven is already the newest version (3.3.9-3).
-openjdk-8-jdk is already the newest version (8u121-b13-0ubuntu1.16.04.2).
-The following packages were automatically installed and are no longer required:
-  linux-headers-4.4.0-53 linux-headers-4.4.0-53-generic
-  linux-image-4.4.0-53-generic linux-image-extra-4.4.0-53-generic
-  ubuntu-core-launcher
-Use 'sudo apt autoremove' to remove them.
-The following NEW packages will be installed:
-  libopenjfx-java libopenjfx-jni openjfx
-0 upgraded, 3 newly installed, 0 to remove and 98 not upgraded.
-Need to get 18.4 MB of archives.
-After this operation, 50.8 MB of additional disk space will be used.
-Get:1 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenjfx-jni amd64 8u60-b27-4 [8,422 kB]
-Get:2 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenjfx-java all 8u60-b27-4 [9,917 kB]
-Get:3 http://de.archive.ubuntu.com/ubuntu xenial/universe amd64 openjfx amd64 8u60-b27-4 [34.4 kB]
-Fetched 18.4 MB in 31s (577 kB/s)
-Selecting previously unselected package libopenjfx-jni.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 311447 files and directories currently installed.)
-Preparing to unpack .../libopenjfx-jni_8u60-b27-4_amd64.deb ...
-Unpacking libopenjfx-jni (8u60-b27-4) ...
-Selecting previously unselected package libopenjfx-java.
-Preparing to unpack .../libopenjfx-java_8u60-b27-4_all.deb ...
-Unpacking libopenjfx-java (8u60-b27-4) ...
-Selecting previously unselected package openjfx.
-Preparing to unpack .../openjfx_8u60-b27-4_amd64.deb ...
-Unpacking openjfx (8u60-b27-4) ...
-Processing triggers for man-db (2.7.5-1) ...
-Setting up libopenjfx-jni (8u60-b27-4) ...
-Setting up libopenjfx-java (8u60-b27-4) ...
-Setting up openjfx (8u60-b27-4) ...
-Cloning into 'podilizer'...
-Cloning into 'javacode'...
+From srv-lab-t-401.zhaw.ch:dord/service_tooling_initiative
+   4059cde..33c276b  testbranch -> origin/testbranch
+Updating 4059cde..33c276b
+Fast-forward
+ src/main/java/ch/zhaw/file_operations/JavaProjectEntity.java | 2 +-
+ src/main/java/ch/zhaw/statistic/Compile.java                 | 7 ++++++-
+ src/main/java/ch/zhaw/statistic/Upload.java                  | 7 ++++++-
+ 3 files changed, 13 insertions(+), 3 deletions(-)
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -45,7 +18,8 @@ Cloning into 'javacode'...
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ Podilizer ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 20 source files to podilizer-experiments/podilizer/target/classes
+[INFO] Compiling 24 source files to podilizer-experiments/podilizer/target/classes
+[WARNING] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/JarBuilder.java:[6,19] sun.rmi.log.LogHandler is internal proprietary API and may be removed in a future release
 [INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Some input files use unchecked or unsafe operations.
 [INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
@@ -78,37 +52,38 @@ Cloning into 'javacode'...
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.209 s
-[INFO] Finished at: 2017-02-06T11:36:59+01:00
-[INFO] Final Memory: 24M/317M
+[INFO] Total time: 2.218 s
+[INFO] Finished at: 2017-02-08T14:36:50+01:00
+[INFO] Final Memory: 23M/300M
 [INFO] ------------------------------------------------------------------------
+Already up-to-date.
 Converting buttons...
 
-real	0m9.968s
-user	0m34.600s
-sys	0m1.260s
+real	0m9.831s
+user	0m33.876s
+sys	0m0.880s
 Converting containers...
 
-real	0m16.641s
-user	0m58.120s
-sys	0m1.980s
+real	0m16.671s
+user	0m58.596s
+sys	0m1.808s
 Converting imageprocessor...
 
-real	0m0.191s
-user	0m0.328s
+real	0m0.185s
+user	0m0.304s
 sys	0m0.024s
 Converting maths...
 
-real	0m6.559s
-user	0m22.040s
-sys	0m0.840s
+real	0m6.857s
+user	0m24.204s
+sys	0m0.640s
 Converting parser...
 
-real	0m12.987s
-user	0m47.648s
-sys	0m1.208s
+real	0m24.966s
+user	1m28.604s
+sys	0m2.608s
 Converting transport...
 
-real	0m36.120s
-user	2m5.252s
-sys	0m4.928s
+real	0m39.593s
+user	2m14.880s
+sys	0m5.096s

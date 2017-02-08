@@ -2,239 +2,38 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.701 sec---
+---Translation finished in 00 min, 00.843 sec---
+
+[Code analysis statistic:]
+
+  - 6 '.java' files was/were found in the input project directory.
+
+[Code decomposition statistic:]
+
+  - 113 methods was/were found in the input java project.
+
+[Functions translation statistic:]
+
+  - 6 Lambda Function projects were created.
 
 
 ---Building started.---
 
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4/main1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4/main1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4/main1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.991 s
-[INFO] Finished at: 2017-02-06T11:37:35+01:00
-[INFO] Final Memory: 11M/229M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4/main1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitPrint1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitPrint1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitPrint1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.873 s
-[INFO] Finished at: 2017-02-06T11:37:37+01:00
-[INFO] Final Memory: 11M/230M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitPrint1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAssignment1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAssignment1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAssignment1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.920 s
-[INFO] Finished at: 2017-02-06T11:37:39+01:00
-[INFO] Final Memory: 11M/230M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAssignment1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitInteger1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitInteger1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitInteger1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.930 s
-[INFO] Finished at: 2017-02-06T11:37:41+01:00
-[INFO] Final Memory: 12M/290M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitInteger1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 1.050 s
-[INFO] Finished at: 2017-02-06T11:37:43+01:00
-[INFO] Final Memory: 11M/223M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
-[INFO] Scanning for projects...
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building lambda-java-example 1.0-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[INFO] 
-[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
-[INFO] 
-[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
-[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1/src/main/resources
-[INFO] 
-[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 22 source files to podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1/target/classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 0.941 s
-[INFO] Finished at: 2017-02-06T11:37:45+01:00
-[INFO] Final Memory: 12M/291M
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project lambda-java-example: Compilation failure
-[ERROR] podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1/src/main/java/calculator4/Calculator4Listener.java:[147,31] <identifier> expected
-[ERROR] -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4/main1 : [SUCCESS]
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitPrint1 : [SUCCESS]
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAssignment1 : [SUCCESS]
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitInteger1 : [SUCCESS]
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1 : [SUCCESS]
+Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1 : [SUCCESS]
 
----Building finished in 00 min, 12.218 sec---
+---Building finished in 00 min, 24.042 sec---
+
+
+[Compilation statistic:]
+
+  - 6 projects were prepared for compiling.
+
+  - 6 projects were successfully compiled.
+
+  - 100.0% of projects were successfully compiled.
 

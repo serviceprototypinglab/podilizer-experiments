@@ -2,11 +2,32 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.112 sec---
+---Translation finished in 00 min, 00.107 sec---
+
+[Code analysis statistic:]
+
+  - 4 '.java' files was/were found in the input project directory.
+
+[Code decomposition statistic:]
+
+  - 29 methods was/were found in the input java project.
+
+[Functions translation statistic:]
+
+  - 0 Lambda Function projects were created.
 
 
 ---Building started.---
 
 
----Building finished in 00 min, 00.002 sec---
+---Building finished in 00 min, 00.003 sec---
+
+
+[Compilation statistic:]
+
+  - 0 projects were prepared for compiling.
+
+  - 0 projects were successfully compiled.
+
+  - 0.0% of projects were successfully compiled.
 

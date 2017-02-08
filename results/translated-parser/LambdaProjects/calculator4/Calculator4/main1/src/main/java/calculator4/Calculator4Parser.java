@@ -687,7 +687,4 @@ public class Calculator4Parser extends Parser {
             _decisionToDFA[i] = new DFA(_ATN.getDecisionState(i), i);
         }
     }
-
-    public Calculator4Parser() {
-    }
 }

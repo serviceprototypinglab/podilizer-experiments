@@ -19,9 +19,6 @@ public interface Plugin {
     public String description();
 
     public String process(String image);
-
-    public Plugin() {
-    }
 }
 
 class PluginLoader {

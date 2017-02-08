@@ -116,9 +116,6 @@ public class BoxContainer {
         this.boxes = outputType.getBoxes();
     }
 
-    public BoxContainer() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

@@ -277,9 +277,6 @@ public class Calculator4ConcreteListener extends Calculator4BaseListener {
         this.sym = outputType.getSym();
     }
 
-    public Calculator4ConcreteListener() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

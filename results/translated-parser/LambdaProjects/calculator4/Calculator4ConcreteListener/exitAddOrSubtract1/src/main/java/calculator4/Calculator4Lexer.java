@@ -136,9 +136,6 @@ public class Calculator4Lexer extends Lexer {
         }
     }
 
-    public Calculator4Lexer() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

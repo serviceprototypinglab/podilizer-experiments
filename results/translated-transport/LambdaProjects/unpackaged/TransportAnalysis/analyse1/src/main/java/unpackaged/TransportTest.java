@@ -124,9 +124,6 @@ public class TransportTest {
         System.out.println("SUCCESS: " + result.wasSuccessful());
     }
 
-    public TransportTest() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

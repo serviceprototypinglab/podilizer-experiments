@@ -28,9 +28,6 @@ public class Main {
         System.out.println("The total boxes volume is " + boxContainer.totalVolume());
     }
 
-    public Main() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

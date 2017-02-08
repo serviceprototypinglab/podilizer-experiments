@@ -143,7 +143,4 @@ public interface Calculator4Listener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
     public void exitArg(Calculator4Parser.ArgContext ctx);
-
-    public Calculator4Listener() {
-    }
 }

@@ -1,0 +1,5 @@
+podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/volume
+podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Box/oneLineMethod
+podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/totalVolume
+podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1
+podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1

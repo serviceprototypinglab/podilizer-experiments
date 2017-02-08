@@ -31,9 +31,6 @@ public class Calculator4 {
         ParserRuleContext t = p.program();
     }
 
-    public Calculator4() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {

@@ -242,9 +242,6 @@ public class Calculator4BaseListener implements Calculator4Listener {
     public void visitErrorNode(ErrorNode node) {
     }
 
-    public Calculator4BaseListener() {
-    }
-
     public static String byteBufferToString(ByteBuffer buffer, Charset charset) {
         byte[] bytes;
         if (buffer.hasArray()) {
