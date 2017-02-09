@@ -2,19 +2,25 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.173 sec---
+---Translation finished in 00 min, 00.193 sec---
 
 [Code analysis statistic:]
 
   - 1 '.java' files was/were found in the input project directory.
 
+  Finished in: 00 min, 00.057 sec
+
 [Code decomposition statistic:]
 
   - 3 methods was/were found in the input java project.
 
+  Finished in: 00 min, 00.002 sec
+
 [Functions translation statistic:]
 
   - 3 Lambda Function projects were created.
+
+  Finished in: 00 min, 00.129 sec
 
 
 ---Building started.---
@@ -23,7 +29,7 @@ Build result of project podilizer-experiments/results/translated-buttons/LambdaP
 Build result of project podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/actionPerformed1 : [SUCCESS]
 Build result of project podilizer-experiments/results/translated-buttons/LambdaProjects/unpackaged/Buttons/main1 : [SUCCESS]
 
----Building finished in 00 min, 09.591 sec---
+---Building finished in 00 min, 10.069 sec---
 
 
 [Compilation statistic:]

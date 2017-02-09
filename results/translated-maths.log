@@ -2,19 +2,25 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.124 sec---
+---Translation finished in 00 min, 00.142 sec---
 
 [Code analysis statistic:]
 
   - 2 '.java' files was/were found in the input project directory.
 
+  Finished in: 00 min, 00.057 sec
+
 [Code decomposition statistic:]
 
   - 2 methods was/were found in the input java project.
 
+  Finished in: 00 min, 00.003 sec
+
 [Functions translation statistic:]
 
   - 2 Lambda Function projects were created.
+
+  Finished in: 00 min, 00.076 sec
 
 
 ---Building started.---
@@ -22,7 +28,7 @@
 Build result of project podilizer-experiments/results/translated-maths/LambdaProjects/wizardmath/MathWizard/sum2 : [SUCCESS]
 Build result of project podilizer-experiments/results/translated-maths/LambdaProjects/unpackaged/Maths/main1 : [SUCCESS]
 
----Building finished in 00 min, 06.666 sec---
+---Building finished in 00 min, 08.660 sec---
 
 
 [Compilation statistic:]

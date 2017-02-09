@@ -1,11 +1,10 @@
 From srv-lab-t-401.zhaw.ch:dord/service_tooling_initiative
-   4059cde..33c276b  testbranch -> origin/testbranch
-Updating 4059cde..33c276b
+   ecb230e..67799d4  testbranch -> origin/testbranch
+Updating ecb230e..67799d4
 Fast-forward
- src/main/java/ch/zhaw/file_operations/JavaProjectEntity.java | 2 +-
- src/main/java/ch/zhaw/statistic/Compile.java                 | 7 ++++++-
- src/main/java/ch/zhaw/statistic/Upload.java                  | 7 ++++++-
- 3 files changed, 13 insertions(+), 3 deletions(-)
+ src/main/java/ch/zhaw/file_operations/JavaProjectEntity.java |  6 ++----
+ src/main/java/ch/zhaw/file_operations/Translator.java        | 10 ++++++++--
+ 2 files changed, 10 insertions(+), 6 deletions(-)
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
@@ -18,7 +17,7 @@ Fast-forward
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.6.0:compile (default-compile) @ Podilizer ---
 [INFO] Changes detected - recompiling the module!
-[INFO] Compiling 24 source files to podilizer-experiments/podilizer/target/classes
+[INFO] Compiling 28 source files to podilizer-experiments/podilizer/target/classes
 [WARNING] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/JarBuilder.java:[6,19] sun.rmi.log.LogHandler is internal proprietary API and may be removed in a future release
 [INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Some input files use unchecked or unsafe operations.
 [INFO] podilizer-experiments/podilizer/src/main/java/ch/zhaw/file_operations/ClassEntity.java: Recompile with -Xlint:unchecked for details.
@@ -52,38 +51,38 @@ Fast-forward
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 2.218 s
-[INFO] Finished at: 2017-02-08T14:36:50+01:00
-[INFO] Final Memory: 23M/300M
+[INFO] Total time: 2.285 s
+[INFO] Finished at: 2017-02-09T16:20:39+01:00
+[INFO] Final Memory: 21M/301M
 [INFO] ------------------------------------------------------------------------
 Already up-to-date.
 Converting buttons...
 
-real	0m9.831s
-user	0m33.876s
-sys	0m0.880s
+real	0m10.333s
+user	0m36.296s
+sys	0m0.768s
 Converting containers...
 
-real	0m16.671s
-user	0m58.596s
-sys	0m1.808s
+real	0m17.784s
+user	1m3.864s
+sys	0m1.296s
 Converting imageprocessor...
 
-real	0m0.185s
-user	0m0.304s
+real	0m0.201s
+user	0m0.336s
 sys	0m0.024s
 Converting maths...
 
-real	0m6.857s
-user	0m24.204s
-sys	0m0.640s
+real	0m8.871s
+user	0m29.112s
+sys	0m0.636s
 Converting parser...
 
-real	0m24.966s
-user	1m28.604s
-sys	0m2.608s
+real	0m26.514s
+user	1m34.160s
+sys	0m1.960s
 Converting transport...
 
-real	0m39.593s
-user	2m14.880s
-sys	0m5.096s
+real	0m40.798s
+user	2m25.420s
+sys	0m2.872s

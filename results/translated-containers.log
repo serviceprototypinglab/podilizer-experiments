@@ -2,19 +2,25 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.379 sec---
+---Translation finished in 00 min, 00.362 sec---
 
 [Code analysis statistic:]
 
   - 3 '.java' files was/were found in the input project directory.
 
+  Finished in: 00 min, 00.059 sec
+
 [Code decomposition statistic:]
 
   - 13 methods was/were found in the input java project.
 
+  Finished in: 00 min, 00.005 sec
+
 [Functions translation statistic:]
 
   - 5 Lambda Function projects were created.
+
+  Finished in: 00 min, 00.292 sec
 
 
 ---Building started.---
@@ -25,7 +31,7 @@ Build result of project podilizer-experiments/results/translated-containers/Lamb
 Build result of project podilizer-experiments/results/translated-containers/LambdaProjects/com/company/BoxContainer/addBox1 : [SUCCESS]
 Build result of project podilizer-experiments/results/translated-containers/LambdaProjects/com/company/Main/main1 : [SUCCESS]
 
----Building finished in 00 min, 16.222 sec---
+---Building finished in 00 min, 17.349 sec---
 
 
 [Compilation statistic:]

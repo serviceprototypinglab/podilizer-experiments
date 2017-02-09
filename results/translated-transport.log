@@ -2,19 +2,25 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.857 sec---
+---Translation finished in 00 min, 00.941 sec---
 
 [Code analysis statistic:]
 
   - 4 '.java' files was/were found in the input project directory.
 
+  Finished in: 00 min, 00.069 sec
+
 [Code decomposition statistic:]
 
   - 12 methods was/were found in the input java project.
 
+  Finished in: 00 min, 00.010 sec
+
 [Functions translation statistic:]
 
   - 10 Lambda Function projects were created.
+
+  Finished in: 00 min, 00.857 sec
 
 
 ---Building started.---
@@ -30,7 +36,7 @@ Build result of project podilizer-experiments/results/translated-transport/Lambd
 Build result of project podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportAnalysis/read1 : [SUCCESS]
 Build result of project podilizer-experiments/results/translated-transport/LambdaProjects/unpackaged/TransportAnalysis/analyse1 : [SUCCESS]
 
----Building finished in 00 min, 38.667 sec---
+---Building finished in 00 min, 39.785 sec---
 
 
 [Compilation statistic:]

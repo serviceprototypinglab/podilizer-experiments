@@ -2,19 +2,25 @@
 ---Translation started---
 
 
----Translation finished in 00 min, 00.843 sec---
+---Translation finished in 00 min, 00.839 sec---
 
 [Code analysis statistic:]
 
   - 6 '.java' files was/were found in the input project directory.
 
+  Finished in: 00 min, 00.104 sec
+
 [Code decomposition statistic:]
 
   - 113 methods was/were found in the input java project.
 
+  Finished in: 00 min, 00.030 sec
+
 [Functions translation statistic:]
 
   - 6 Lambda Function projects were created.
+
+  Finished in: 00 min, 00.699 sec
 
 
 ---Building started.---
@@ -26,7 +32,7 @@ Build result of project podilizer-experiments/results/translated-parser/LambdaPr
 Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitAddOrSubtract1 : [SUCCESS]
 Build result of project podilizer-experiments/results/translated-parser/LambdaProjects/calculator4/Calculator4ConcreteListener/exitMultOrDiv1 : [SUCCESS]
 
----Building finished in 00 min, 24.042 sec---
+---Building finished in 00 min, 25.600 sec---
 
 
 [Compilation statistic:]
