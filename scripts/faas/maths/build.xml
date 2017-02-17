@@ -1,0 +1,42 @@
+<project name="Maths" default="run" basedir=".">
+  <target name="init">
+    <mkdir dir="build"/>
+  </target>
+
+<path id="class.path">
+  <fileset dir="../../scripts/faas/libss">
+    <include name="*.jar" />
+  </fileset>
+</path>
+
+  <target name="compile" depends="init">
+    <javac srcdir="src" destdir="build" includeantruntime="false">
+	<classpath refid="class.path"/>
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile">
+    <mkdir dir="dist"/>
+    <jar jarfile="dist/maths.jar" basedir="build">
+	<zipgroupfileset dir="../../scripts/faas/libs" includes="*.jar" />
+    </jar>
+  </target>
+
+  <target name="run" depends="dist">
+    <javac srcdir="." destdir="." includes="*.java" classpath="dist/maths.jar" includeantruntime="false"/>
+    <java classname="unpackaged.Maths" classpath="dist/maths.jar:."/>
+  </target>
+
+  <target name="test" depends="dist">
+    <javac srcdir="." destdir="." includes="TestMaths.java" classpath="dist/maths.jar:/usr/share/java/testng.jar" includeantruntime="false"/>
+    <java classname="org.testng.TestNG" classpath="dist/maths.jar:/usr/share/java/testng.jar:/usr/share/java/jcommander.jar:." args="TestMaths.xml"/>
+  </target>
+
+  <target name="clean">
+    <delete dir="build"/>
+    <delete dir="dist"/>
+    <delete>
+      <fileset dir="." includes="*.class"/>
+    </delete>
+  </target>
+</project>
