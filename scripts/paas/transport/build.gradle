@@ -1,0 +1,26 @@
+apply plugin: 'java'
+
+jar {
+    baseName = 'transport-app'
+    version = 'v2'
+    manifest {
+        attributes('Main-Class': 'Servlet')
+    }
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    compile files("../transport.jar")
+    compile files("/usr/share/java/javacsv.jar")
+    compile files("/usr/share/java/servlet-api-3.0.jar")
+    compile files("/usr/share/java/jetty9-server.jar")
+    compile files("/usr/share/java/jetty9-util.jar")
+    compile files("/usr/share/java/jetty9-http.jar")
+    compile files("/usr/share/java/jetty9-io.jar")
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}

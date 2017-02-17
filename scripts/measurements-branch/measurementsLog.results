@@ -1,0 +1,18 @@
+MEASURE [0] start
+MEASURE [56] analysis
+MEASURE [59] decomposition
+MEASURE [41] translation?
+MEASURE [38] translation
+MEASURE [3979] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/com pany/Box/volume
+MEASURE [9291] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/volume
+MEASURE [3986] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/oneLineMethod
+MEASURE [5743] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/oneLineMethod
+MEASURE [4038] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/totalVolume
+MEASURE [10414] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/totalVolume
+MEASURE [3823] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/addBox1
+MEASURE [7815] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/addBox1
+MEASURE [3843] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Main/main1
+MEASURE [5907] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Main/main1
+MEASURE [58887] //verification
+MEASURE [0] finish
+{'analysis': 56, 'Σtranslation': 39170, 'start': 0, '//verification': 58887, 'Σcompilation': 19669, 'decomposition': 59, 'finish': 0, 'translation': 38, 'translation?': 41}

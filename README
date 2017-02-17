@@ -1,0 +1,13 @@
+This repository contains a bunch of scripts to run Podilizer over the
+Javacode reference project repository, as well as more scripts to run
+the Java projects in various forms on FaaS (after Podilizer did its
+work), on PaaS (with Servlet tweaks), and on IaaS (behind Xinetd).
+
+Files:
+ README   - you're reading it.
+ results/ - reference results from run.sh, for comparison & regression
+            testing, slightly anonymised - contains Lambda projects.
+ runlog   - reference output from run-supervised.sh: podilizer output.
+ run.sh   - the main run script.
+ run-supervised.sh - wrapper around run.sh to set correct parameters.
+ scripts/ - run all projects on IaaS, PaaS, FaaS.
