@@ -1,0 +1,3 @@
+- compile the embedded-servlet application(s)
+- run them locally by pointing to http://localhost:8080/
+- deploy them to Elastic Beanstalk

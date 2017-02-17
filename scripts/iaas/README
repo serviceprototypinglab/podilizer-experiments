@@ -1,0 +1,6 @@
+- clone the 'javacode' reference repository on a virtual machine
+  [git@srv-lab-t-401.zhaw.ch:tooling/javacode.git]
+- copy all runscripts into the clone's main directory
+- copy javacode to /etc/xinetd.d/
+- reload (SIGHUP) xinetd
+- point to the server address in run-iaas.sh and run the script

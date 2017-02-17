@@ -1,0 +1,419 @@
+MEASURE [0] start
+MEASURE [56] analysis
+MEASURE [59] decomposition
+MEASURE [41] translation?
+MEASURE [38] translation
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/volume/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.657 s
+[INFO] Finished at: 2017-01-04T09:19:54+01:00
+[INFO] Final Memory: 34M/430M
+[INFO] ------------------------------------------------------------------------
+MEASURE [3979] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/com pany/Box/volume
+[sudo] password for dord: 
+aws lambda create-function --function-name com_company_Box_volume --region us-west-2 --zip-file fileb:///home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/volume/target/lambda-java-example-1.0-SNAPSHOT.jar --role arn:aws:iam::52097406xxxx:role/lambda_basic_execution --handler lambda_function.LambdaFunction::handleRequest --runtime java8 --timeout 60 --memory-size 1024
+{
+    "CodeSha256": "Iz5qY0jN9RWHc+lB5tXaUaaol5PFBp1qfn3joTH+a+4=", 
+    "FunctionName": "com_company_Box_volume", 
+    "CodeSize": 6079891, 
+    "MemorySize": 1024, 
+    "FunctionArn": "arn:aws:lambda:us-west-2:52097406xxxx:function:com_company_Box_volume", 
+    "Version": "$LATEST", 
+    "Role": "arn:aws:iam::52097406xxxx:role/lambda_basic_execution", 
+    "Timeout": 60, 
+    "LastModified": "2017-01-04T08:20:03.056+0000", 
+    "Handler": "lambda_function.LambdaFunction::handleRequest", 
+    "Runtime": "java8", 
+    "Description": ""
+}
+MEASURE [9291] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/volume
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Box/oneLineMethod/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.574 s
+[INFO] Finished at: 2017-01-04T09:20:07+01:00
+[INFO] Final Memory: 34M/430M
+[INFO] ------------------------------------------------------------------------
+MEASURE [3986] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/oneLineMethod
+aws lambda create-function --function-name com_company_Box_oneLineMethod --region us-west-2 --zip-file fileb:///home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/oneLineMethod/target/lambda-java-example-1.0-SNAPSHOT.jar --role arn:aws:iam::52097406xxxx:role/lambda_basic_execution --handler lambda_function.LambdaFunction::handleRequest --runtime java8 --timeout 60 --memory-size 1024
+{
+    "CodeSha256": "xfX7dytpmXewrOte1n96PDplAolDW2PZNkSMa0lIETY=", 
+    "FunctionName": "com_company_Box_oneLineMethod", 
+    "CodeSize": 6080856, 
+    "MemorySize": 1024, 
+    "FunctionArn": "arn:aws:lambda:us-west-2:52097406xxxx:function:com_company_Box_oneLineMethod", 
+    "Version": "$LATEST", 
+    "Role": "arn:aws:iam::52097406xxxx:role/lambda_basic_execution", 
+    "Timeout": 60, 
+    "LastModified": "2017-01-04T08:20:12.774+0000", 
+    "Handler": "lambda_function.LambdaFunction::handleRequest", 
+    "Runtime": "java8", 
+    "Description": ""
+}
+MEASURE [5743] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Box/oneLineMethod
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/totalVolume/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.630 s
+[INFO] Finished at: 2017-01-04T09:20:17+01:00
+[INFO] Final Memory: 37M/430M
+[INFO] ------------------------------------------------------------------------
+MEASURE [4038] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/totalVolume
+aws lambda create-function --function-name com_company_BoxContainer_totalVolume --region us-west-2 --zip-file fileb:///home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/totalVolume/target/lambda-java-example-1.0-SNAPSHOT.jar --role arn:aws:iam::52097406xxxx:role/lambda_basic_execution --handler lambda_function.LambdaFunction::handleRequest --runtime java8 --timeout 60 --memory-size 1024
+{
+    "CodeSha256": "kipGtSjdInv2AlMBuCyKNPkNf4DNUqXrJWi46nCXVdo=", 
+    "FunctionName": "com_company_BoxContainer_totalVolume", 
+    "CodeSize": 6079657, 
+    "MemorySize": 1024, 
+    "FunctionArn": "arn:aws:lambda:us-west-2:52097406xxxx:function:com_company_BoxContainer_totalVolume", 
+    "Version": "$LATEST", 
+    "Role": "arn:aws:iam::52097406xxxx:role/lambda_basic_execution", 
+    "Timeout": 60, 
+    "LastModified": "2017-01-04T08:20:27.316+0000", 
+    "Handler": "lambda_function.LambdaFunction::handleRequest", 
+    "Runtime": "java8", 
+    "Description": ""
+}
+MEASURE [10414] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/totalVolume
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/BoxContainer/addBox1/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.523 s
+[INFO] Finished at: 2017-01-04T09:20:31+01:00
+[INFO] Final Memory: 16M/303M
+[INFO] ------------------------------------------------------------------------
+MEASURE [3823] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/addBox1
+aws lambda create-function --function-name com_company_BoxContainer_addBox1 --region us-west-2 --zip-file fileb:///home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/addBox1/target/lambda-java-example-1.0-SNAPSHOT.jar --role arn:aws:iam::52097406xxxx:role/lambda_basic_execution --handler lambda_function.LambdaFunction::handleRequest --runtime java8 --timeout 60 --memory-size 1024
+{
+    "CodeSha256": "PxfhXut0WTYLzb8esepMGMvLqAqq8rINMM0UOjuwTwg=", 
+    "FunctionName": "com_company_BoxContainer_addBox1", 
+    "CodeSize": 6080555, 
+    "MemorySize": 1024, 
+    "FunctionArn": "arn:aws:lambda:us-west-2:52097406xxxx:function:com_company_BoxContainer_addBox1", 
+    "Version": "$LATEST", 
+    "Role": "arn:aws:iam::52097406xxxx:role/lambda_basic_execution", 
+    "Timeout": 60, 
+    "LastModified": "2017-01-04T08:20:38.981+0000", 
+    "Handler": "lambda_function.LambdaFunction::handleRequest", 
+    "Runtime": "java8", 
+    "Description": ""
+}
+MEASURE [7815] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/BoxContainer/addBox1
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building lambda-java-example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ lambda-java-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ lambda-java-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda-java-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ lambda-java-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ lambda-java-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ lambda-java-example ---
+[INFO] Building jar: /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ lambda-java-example ---
+[INFO] Including com.amazonaws:aws-lambda-java-core:jar:1.1.0 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-lambda:jar:1.11.60 in the shaded jar.
+[INFO] Including com.amazonaws:aws-java-sdk-core:jar:1.11.60 in the shaded jar.
+[INFO] Including commons-logging:commons-logging:jar:1.1.3 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.2 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.4 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including software.amazon.ion:ion-java:jar:1.0.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.6 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.6.6 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.8.1 in the shaded jar.
+[INFO] Including com.amazonaws:jmespath-java:jar:1.11.60 in the shaded jar.
+[INFO] Including com.google.code.javaparser:javaparser:jar:1.0.11 in the shaded jar.
+[INFO] Including org.jyaml:jyaml:jar:1.3 in the shaded jar.
+[INFO] Including org.aspectj:aspectjrt:jar:1.8.2 in the shaded jar.
+[INFO] Including org.apache.maven.shared:maven-invoker:jar:2.1.1 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[INFO] Including org.codehaus.plexus:plexus-utils:jar:2.0.5 in the shaded jar.
+[INFO] Including com.googlecode.json-simple:json-simple:jar:1.1 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5 in the shaded jar.
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar with /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT-shaded.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ lambda-java-example ---
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.jar
+[INFO] Installing /home/dord/SPLab/tmpProjects/OutOftestProjToUpload/LambdaProjects/com/company/Main/main1/pom.xml to /home/dord/.m2/repository/doc-examples/lambda-java-example/1.0-SNAPSHOT/lambda-java-example-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.533 s
+[INFO] Finished at: 2017-01-04T09:20:43+01:00
+[INFO] Final Memory: 33M/303M
+[INFO] ------------------------------------------------------------------------
+MEASURE [3843] compilation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Main/main1
+aws lambda create-function --function-name com_company_Main_main1 --region us-west-2 --zip-file fileb:///home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Main/main1/target/lambda-java-example-1.0-SNAPSHOT.jar --role arn:aws:iam::52097406xxxx:role/lambda_basic_execution --handler lambda_function.LambdaFunction::handleRequest --runtime java8 --timeout 60 --memory-size 1024
+{
+    "CodeSha256": "RC72R1Do7DrG6adsmZhrZQSo1seNvPdA9LX43VeFBfE=", 
+    "FunctionName": "com_company_Main_main1", 
+    "CodeSize": 6079109, 
+    "MemorySize": 1024, 
+    "FunctionArn": "arn:aws:lambda:us-west-2:52097406xxxx:function:com_company_Main_main1", 
+    "Version": "$LATEST", 
+    "Role": "arn:aws:iam::52097406xxxx:role/lambda_basic_execution", 
+    "Timeout": 60, 
+    "LastModified": "2017-01-04T08:20:48.641+0000", 
+    "Handler": "lambda_function.LambdaFunction::handleRequest", 
+    "Runtime": "java8", 
+    "Description": ""
+}
+MEASURE [5907] translation:/home/dord/SPLab/tmpProjects/OutOftestProjToUpload//LambdaProjects/com/company/Main/main1
+MEASURE [58887] //verification
+MEASURE [0] finish
+
